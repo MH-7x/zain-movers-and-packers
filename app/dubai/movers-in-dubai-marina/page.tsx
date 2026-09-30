@@ -1,4 +1,11 @@
-import { BadgeCheck, MessageSquare, ShieldCheck, Truck, Users, Wallet } from "lucide-react";
+import {
+  BadgeCheck,
+  MessageSquare,
+  ShieldCheck,
+  Truck,
+  Users,
+  Wallet,
+} from "lucide-react";
 
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 import AreaHero from "@/components/dubai-area/AreaHero";
@@ -156,18 +163,22 @@ export default function MoversInDubaiMarinaPage() {
           {
             title: "Apartment & Studio Movers",
             body: "Most of our work in the Marina involves high-rise apartment movers. We regularly handle studio moving, 1 BHK, 2 BHK, and 3 BHK apartment relocations. We bring heavy-duty carton boxes and bubble wrap to safely pack your belongings and transport them down the service elevators without damaging the building walls.",
+            link: "/services/house-movers-dubai",
           },
           {
             title: "Villa & Penthouse Relocation",
             body: "If you are moving into a luxury penthouse or one of the podium-level villas, we provide dedicated villa movers and packers in Dubai Marina. We send a larger team to ensure the move is completed in a single day, handling your expensive furniture with extreme care.",
+            link: "/services/villa-movers-dubai",
           },
           {
             title: "Office & Commercial Movers",
             body: "For businesses operating in the Marina or nearby commercial towers, we offer fast and professional office relocation services. We can schedule your business relocation on weekends or after hours to ensure zero downtime for your company.",
+            link: "/services/office-movers-dubai",
           },
           {
             title: "Furniture Moving & Packing Services",
             body: "Sometimes you do not need to move an entire house. If you just need single item movers in Dubai Marina to transport a heavy sofa, or need professional packing and unpacking services for fragile items, we have you covered. Our carpenters expertly dismantle and reassemble your beds, wardrobes, and modular furniture.",
+            link: "/services/furniture-movers-dubai",
           },
         ]}
       />
@@ -182,7 +193,7 @@ export default function MoversInDubaiMarinaPage() {
           },
           {
             title: "Goods-in-Transit Cargo Insurance",
-            body: "Your belongings are insured during transport for total peace of mind.",
+            body: "Your belongings are insured during transport for total peace of mind and safety.",
           },
           {
             title: "Pay Upon 100% Satisfaction",
@@ -203,7 +214,10 @@ export default function MoversInDubaiMarinaPage() {
         title="Movers and Packers Cost in Dubai Marina"
         lede="We believe in being an affordable moving company with 100% transparent pricing. The price we quote on WhatsApp is the final price you pay. No hidden charges for stairs, packing tape, or long carrying distances."
         rows={[
-          { property: "Studio / 1 BHK Moving Cost", price: "AED 800 – AED 1,200" },
+          {
+            property: "Studio / 1 BHK Moving Cost",
+            price: "AED 800 – AED 1,200",
+          },
           { property: "2 BHK Moving Cost", price: "AED 1,300 – AED 1,800" },
           {
             property: "3 BHK / Penthouse",

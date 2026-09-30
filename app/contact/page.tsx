@@ -25,14 +25,14 @@ export default function ContactPage() {
           { name: "Home", href: "/" },
           { name: "Contact", href: PATH },
         ]}
-        note="Dispatch open 24 hours, 7 days"
+        note=" open 24 hours, 7 days"
       />
 
       <section className="bg-background">
         <div className="wrap pt-12 pb-4 md:pt-16">
           <div className="max-w-3xl">
             <p className="eyebrow">Get in Touch</p>
-            <h1 className="mt-5 max-w-[16ch] text-4xl leading-[1.1] tracking-tight text-balance md:text-5xl">
+            <h1 className="mt-5 max-w-[25ch] text-4xl leading-[1.1] tracking-tight text-balance md:text-5xl">
               Contact Zain Movers and Packers
             </h1>
             <p className="mt-6 max-w-prose text-lg leading-relaxed text-muted-foreground">

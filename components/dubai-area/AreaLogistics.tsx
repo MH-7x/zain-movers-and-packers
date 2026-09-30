@@ -21,43 +21,35 @@ export default function AreaLogistics({
   return (
     <section className="bg-secondary">
       <div className="wrap band">
-        <div className="grid gap-10 lg:grid-cols-[1fr_1fr] lg:gap-14">
-          <div>
+        <div className="">
+          <div className="">
             {eyebrow && <p className="eyebrow">{eyebrow}</p>}
-            <h2 className="mt-5 max-w-[18ch] text-3xl leading-[1.15] md:text-4xl">
+            <h2 className="mt-5 max-w-[30ch] text-3xl leading-[1.15] md:text-4xl">
               {title}
             </h2>
 
-            <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground [&>p]:max-w-prose">
+            <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground [&>p]:max-w-5xl">
               {children}
             </div>
           </div>
-
-          <ul className="flex flex-col gap-6 self-start">
-            {proofImages.map((image, index) => (
-              <li key={image.caption}>
-                <Reveal delay={index * 70}>
-                  <PlaceholderImage
-                    width={960}
-                    height={560}
-                    alt={image.alt}
-                    label={image.label}
-                    className="w-full"
-                    sizes="(min-width: 1024px) 45vw, 100vw"
-                  />
-                  <div className="bg-background p-4">
-                    <p className="text-sm font-semibold text-foreground">
-                      {image.caption}
-                    </p>
-                    <p className="mt-1 text-sm text-muted-foreground">
-                      {image.sub}
-                    </p>
-                  </div>
-                </Reveal>
-              </li>
-            ))}
-          </ul>
         </div>
+        <ul className="grid md:grid-cols-2 gap-10 mt-10">
+          {proofImages.map((image, index) => (
+            <li key={image.caption}>
+              <Reveal delay={index * 70}>
+                <div className="aspect-video bg-red-100"></div>
+                <div className="bg-background p-4">
+                  <p className="text-sm font-semibold text-foreground">
+                    {image.caption}
+                  </p>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {image.sub}
+                  </p>
+                </div>
+              </Reveal>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

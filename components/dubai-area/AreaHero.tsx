@@ -36,7 +36,7 @@ export default function AreaHero({
 }) {
   return (
     <section className="bg-background">
-      <div className="wrap grid items-start gap-10 py-12 md:py-16 lg:grid-cols-[1.1fr_1fr] lg:gap-16 [&>*]:min-w-0">
+      <div className="wrap grid items-center gap-10 py-12 md:py-16 lg:grid-cols-[1.1fr_1fr] lg:gap-16 [&>*]:min-w-0">
         <div>
           <p className="mb-6 inline-flex max-w-full flex-wrap items-center gap-2 bg-accent px-3 py-2 text-xs font-semibold tracking-[0.12em] text-accent-foreground uppercase">
             <Building2 className="size-3.5" aria-hidden="true" />
@@ -72,17 +72,7 @@ export default function AreaHero({
         </div>
 
         <div>
-          <div className="relative">
-            <PlaceholderImage
-              width={960}
-              height={720}
-              priority
-              alt={imageAlt}
-              label={imageLabel}
-              className="w-full"
-              sizes="(min-width: 1024px) 42vw, 100vw"
-            />
-
+          <div className="relative aspect-square bg-secondary">
             <div className="absolute inset-x-0 bottom-0 flex flex-wrap items-center justify-between gap-3 bg-foreground/95 p-4">
               <span className="flex items-center gap-3">
                 <span
@@ -107,24 +97,9 @@ export default function AreaHero({
               )}
             </div>
           </div>
-
-          <ul className="flex flex-wrap gap-x-8 gap-y-2 bg-secondary px-5 py-4">
-            {compliance.map((item) => (
-              <li
-                key={item}
-                className="flex items-center gap-2 text-sm text-muted-foreground"
-              >
-                <ShieldCheck
-                  className="size-4 text-primary"
-                  aria-hidden="true"
-                />
-                {item}
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
-      <TrustBadges badges={badges} className="mt-9" />
+      <TrustBadges badges={badges} className="mb-16 md:px-16" />
     </section>
   );
 }

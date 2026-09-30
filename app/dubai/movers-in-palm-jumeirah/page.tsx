@@ -160,18 +160,22 @@ export default function MoversInPalmJumeirahPage() {
           {
             title: "Villa & Luxury Home Relocation",
             body: "Moving a multi-bedroom frond villa requires serious manpower and organization. We are expert luxury villa movers in Palm Jumeirah. We send a dedicated, large moving crew to carefully dismantle oversized wooden beds, wrap expensive dining tables, and transport heavy outdoor garden furniture safely.",
+            link: "/services/villa-movers-dubai",
           },
           {
             title: "Apartment & Studio Movers",
             body: "If you are moving into the Shoreline Apartments or the newer towers on the trunk, we provide seamless apartment moving services in Palm Jumeirah. We handle everything from 1 BHK and 2 BHK moves to massive penthouse relocations, ensuring building walls and elevators remain scratch-free.",
+            link: "/services/house-movers-dubai",
           },
           {
             title: "Specialized & Fine Art Packing",
             body: "We understand that some items cannot just be put in a standard box. As fine art movers in Palm Jumeirah, we provide custom crating and heavy-duty bubble wrapping for fragile items, large mirrors, antiques, and chandeliers. Our professional packing services ensure your most valuable belongings are completely protected during transit.",
+            link: "/services/packing-and-moving-services-dubai",
           },
           {
             title: "Office & Commercial Movers",
             body: "If you are opening a new office space or boutique on the island, our commercial movers in Palm Jumeirah will safely pack your IT equipment, dismantle desks, and set up your new commercial space efficiently.",
+            link: "/services/office-movers-dubai",
           },
         ]}
       />

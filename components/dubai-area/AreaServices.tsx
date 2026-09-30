@@ -5,6 +5,7 @@ import Reveal from "@/components/shared/Reveal";
 export interface AreaService {
   title: string;
   body: string;
+  link?: string;
 }
 
 /**
@@ -43,15 +44,14 @@ export default function AreaServices({
                   </div>
                 </div>
 
-
-                <QuoteDialog>
+                <a href={`${service.link ? service.link : "#"}`}>
                   <button
                     type="button"
                     className="h-11 shrink-0 bg-foreground px-6 text-xs font-semibold tracking-[0.08em] text-background uppercase transition-colors hover:bg-primary"
                   >
-                    Book Tier {String(index + 1).padStart(2, "0")}
+                    Contact Us Now
                   </button>
-                </QuoteDialog>
+                </a>
               </Reveal>
             </li>
           ))}

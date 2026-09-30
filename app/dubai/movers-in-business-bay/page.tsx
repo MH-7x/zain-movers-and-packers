@@ -159,14 +159,17 @@ export default function MoversInBusinessBayPage() {
           {
             title: "Office & Commercial Movers",
             body: "Because this is a corporate hub, office relocation in Business Bay is one of our main specialties. We act as dedicated commercial office movers in Business Bay, handling everything from server relocation and IT equipment moving to dismantling modular office desks. We offer weekend and after-hours business relocation services so your company does not lose a single hour of working time.",
+            link: "/services/office-movers-dubai",
           },
           {
             title: "Apartment & Tower Movers",
             body: "If you are moving into one of the residential towers, we provide fast and reliable apartment moving services in Business Bay. From studio moving to 3 bedroom apartment movers, we securely pack your fragile items, load them carefully into the service elevator, and transport them safely to your new home.",
+            link: "/services/house-movers-dubai",
           },
           {
             title: "Furniture Moving & Packing Services",
             body: "Need to move a large conference table or buy a new sofa? We offer single item movers in Business Bay for heavy furniture delivery. We also provide professional packing and unpacking services. Our experienced carpenters will handle all furniture dismantling and assembly, ensuring your pieces remain sturdy and scratch-free.",
+            link: "/services/furniture-movers-dubai",
           },
         ]}
       />

@@ -158,18 +158,22 @@ export default function MoversInJvcPage() {
           {
             title: "Townhouse & Villa Relocation",
             body: "JVC is famous for its townhouses. Moving heavy items up two or three flights of stairs requires experienced townhouse movers in JVC. Our team knows how to navigate these tight spaces safely. We also act as expert villa movers in JVC, handling everything from large garden furniture to delicate indoor pieces with full packing and unpacking services.",
+            link: "/services/villa-movers-dubai",
           },
           {
             title: "Apartment & Studio Movers",
             body: "If you live in one of the community's many apartment buildings, we offer fast and affordable residential moving services. From studio moving in JVC to 1 BHK and 3 bedroom apartment movers, we provide all the boxes and bubble wrap needed to secure your items during transit.",
+            link: "/services/house-movers-dubai",
           },
           {
             title: "Office & Commercial Movers",
             body: "For businesses operating in the area, we provide dedicated office relocation services. Our commercial movers in JVC can pack up your IT equipment, dismantle office desks, and move your business over the weekend so you do not lose any working hours.",
+            link: "/services/office-movers-dubai",
           },
           {
             title: "Furniture Moving & Packing Services",
             body: "Need to move a single heavy item? We offer single furniture movers in JVC for items like heavy sofas or dining tables. We also provide professional packing services in JVC, using heavy-duty blankets and stretch film for absolute protection. Our team will also handle all your furniture dismantling and assembly.",
+            link: "/services/furniture-movers-dubai",
           },
         ]}
       />

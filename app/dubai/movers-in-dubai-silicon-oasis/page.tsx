@@ -159,18 +159,22 @@ export default function MoversInDubaiSiliconOasisPage() {
           {
             title: "Villa & Townhouse Movers",
             body: "DSO is home to popular family communities like Cedre Villas and Semmer Villas. We act as expert villa movers in Dubai Silicon Oasis, sending a large team to carefully pack your entire home, dismantle heavy wooden beds, and transport large garden furniture. We ensure the entire villa move is completed efficiently in a single day.",
+            link: "/services/villa-movers-dubai",
           },
           {
             title: "Apartment & Studio Movers",
             body: "If you are a student or professional moving into the residential towers, we offer fast and affordable apartment movers in Dubai Silicon Oasis. From studio moving in DSO to 3 BHK family apartments, we bring all the necessary carton boxes and bubble wrap to protect your belongings during the move.",
+            link: "/services/house-movers-dubai",
           },
           {
             title: "Office & Commercial Movers",
             body: "Because Silicon Oasis is a major tech hub, we specialize in IT equipment movers in Dubai Silicon Oasis. Our commercial movers in DSO know how to safely pack servers, electronics, and modular office desks. We offer weekend and after-hours corporate relocation to minimize downtime for your business.",
+            link: "/services/office-movers-dubai",
           },
           {
             title: "Furniture Moving & Packing Services",
             body: "Need a new sofa delivered or a large wardrobe moved? We provide single item movers in Dubai Silicon Oasis. We also offer comprehensive packing and unpacking services in DSO. Our professional carpenters will expertly dismantle and reassemble all your furniture, keeping all screws and pieces secure.",
+            link: "/services/furniture-movers-dubai",
           },
         ]}
       />

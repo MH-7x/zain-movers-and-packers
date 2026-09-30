@@ -11,7 +11,7 @@ export default function MapEmbed() {
     <section className="bg-secondary">
       <div className="wrap band">
         <p className="eyebrow">Find Us</p>
-        <h2 className="mt-5 max-w-[16ch] text-3xl leading-[1.15] md:text-4xl">
+        <h2 className="mt-5 max-w-[26ch] text-3xl leading-[1.15] md:text-4xl">
           Our Dubai Office and Logistics Depot
         </h2>
         <p className="mt-5 max-w-prose text-base leading-relaxed text-muted-foreground">

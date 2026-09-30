@@ -27,7 +27,7 @@ export default function AreaWhyChoose({
       <div className="wrap band">
         <SectionHeading eyebrow="Why Choose Us" title={title} lede={lede} />
 
-        <ol className="mt-10 flex flex-col gap-px bg-hairline">
+        <ol className="mt-10 grid lg:grid-cols-3 md:grid-cols-2 gap-px ">
           {points.map((point, index) => (
             <li key={point.title}>
               <Reveal className="flex gap-5 bg-background p-6 md:p-7">

@@ -157,14 +157,17 @@ export default function MoversInJltPage() {
           {
             title: "Apartment & Studio Movers",
             body: "JLT is heavily populated with high-rise residential towers. We act as expert apartment movers in JLT, handling everything from studio moving to 1 BHK, 2 BHK, and 3 BHK apartment relocations. We use heavy-duty carton boxes and protective bubble wrap to ensure your fragile items and electronics survive the service elevator journey safely.",
+            link: "/services/house-movers-dubai",
           },
           {
             title: "Office & Commercial Movers",
             body: "Because JLT is a massive business hub, office relocation in JLT is one of our most requested services. We provide professional commercial movers in JLT to pack your IT equipment, dismantle modular office furniture, and securely move your filing cabinets. We offer weekend moving services so your business experiences zero downtime.",
+            link: "/services/office-movers-dubai",
           },
           {
             title: "Furniture Moving & Packing Services",
             body: "If you just bought a new bed or need to move a large sofa from another cluster, we offer single item movers in JLT. Our furniture moving services in JLT include expert carpenters who handle furniture disassembly and reassembly. We also provide full and partial packing services to save you time.",
+            link: "/services/furniture-movers-dubai",
           },
         ]}
       />

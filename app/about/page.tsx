@@ -1,5 +1,12 @@
 import Link from "next/link";
-import { Banknote, Check, CreditCard, ShieldCheck, Truck, Wallet } from "lucide-react";
+import {
+  Banknote,
+  Check,
+  CreditCard,
+  ShieldCheck,
+  Truck,
+  Wallet,
+} from "lucide-react";
 
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
 import NarrativeBand from "@/components/shared/NarrativeBand";
@@ -137,7 +144,6 @@ export default function AboutPage() {
         <div className="wrap band">
           <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:gap-16">
             <div>
-              <p className="eyebrow">01 / Origin &amp; Purpose</p>
               <h2 className="mt-5 max-w-[16ch] text-3xl leading-[1.15] md:text-4xl">
                 Who We Are
               </h2>

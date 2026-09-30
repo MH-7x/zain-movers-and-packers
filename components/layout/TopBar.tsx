@@ -1,5 +1,10 @@
 import { Clock, MessageCircle, Phone } from "lucide-react";
-import { PHONE_DISPLAY, PHONE_HREF, SOCIALS, WHATSAPP_HREF } from "@/lib/Contact";
+import {
+  PHONE_DISPLAY,
+  PHONE_HREF,
+  SOCIALS,
+  WHATSAPP_HREF,
+} from "@/lib/Contact";
 
 /**
  * Dark utility rail. Desktop only — on mobile the phone and WhatsApp actions
@@ -39,18 +44,6 @@ export default function TopBar() {
             WhatsApp: {PHONE_DISPLAY}
           </a>
           <span className="h-3 w-px bg-hairline-invert" aria-hidden="true" />
-          <ul className="flex items-center gap-4 text-background/80">
-            {SOCIALS.map((social) => (
-              <li key={social.label}>
-                <a
-                  href={social.href}
-                  className="transition-colors hover:text-background"
-                >
-                  {social.label}
-                </a>
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </div>
