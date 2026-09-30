@@ -1,0 +1,86 @@
+import type { ReactNode } from "react";
+import { CircleCheck, ShieldCheck } from "lucide-react";
+
+import PlaceholderImage from "@/components/shared/PlaceholderImage";
+import Reveal from "@/components/shared/Reveal";
+
+/**
+ * Editorial opener: narrative on the wide column, a single supporting image
+ * plus one specification callout on the counterweight.
+ */
+export default function ServiceIntro({
+  eyebrow,
+  title,
+  children,
+  checklist,
+  imageAlt,
+  imageLabel,
+  spec,
+}: {
+  eyebrow: string;
+  title: string;
+  children: ReactNode;
+  checklist: string[];
+  imageAlt: string;
+  imageLabel: string;
+  spec: { title: string; body: string };
+}) {
+  return (
+    <section className="bg-secondary">
+      <div className="wrap band">
+        <div className="grid gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
+          <Reveal>
+            <PlaceholderImage
+              width={960}
+              height={640}
+              alt={imageAlt}
+              label={imageLabel}
+              className="w-full"
+              sizes="(min-width: 1024px) 42vw, 100vw"
+            />
+
+            <div className="mt-px bg-background p-6">
+              <h3 className="flex items-center gap-2.5 text-base font-semibold">
+                <ShieldCheck
+                  className="size-5 shrink-0 text-primary"
+                  aria-hidden="true"
+                />
+                {spec.title}
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                {spec.body}
+              </p>
+            </div>
+          </Reveal>
+          <div>
+            <p className="eyebrow">{eyebrow}</p>
+            <h2 className="mt-5 max-w-[16ch] text-3xl leading-[1.15] md:text-4xl">
+              {title}
+            </h2>
+
+            <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground [&>p]:max-w-prose">
+              {children}
+            </div>
+
+            <ul className="mt-8 grid gap-px bg-hairline sm:grid-cols-2">
+              {checklist.map((item) => (
+                <li
+                  key={item}
+                  className="flex items-center gap-2.5 bg-background px-4 py-3.5 text-sm font-medium text-foreground"
+                >
+                  <CircleCheck
+                    className="size-4 shrink-0 text-primary"
+                    aria-hidden="true"
+                  />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+         
+        </div>
+      </div>
+    </section>
+  );
+}
