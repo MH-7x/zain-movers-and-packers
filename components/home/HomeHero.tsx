@@ -1,7 +1,7 @@
-import { BadgeCheck, Check, Phone } from "lucide-react";
+import Image from "next/image";
+import { Check, Phone } from "lucide-react";
 
 import QuoteDialog from "@/components/shared/QuoteDialog";
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
 
 const TRUST_STRIP = [
@@ -67,7 +67,16 @@ export default function HomeHero() {
 
         {/* Counterweight column: visual proof + licensing marker */}
         <div className="relative">
-          <div className="relative aspect-square overflow-hidden bg-secondary"></div>
+          <div className="relative aspect-square overflow-hidden bg-secondary">
+            <Image
+              src="/homepage/zain-movers-and-packers-dubai-hero.jpg"
+              alt="Zain Movers and Packers branded truck and uniformed crew in Dubai"
+              fill
+              priority
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
+            />
+          </div>
         </div>
       </div>
     </section>

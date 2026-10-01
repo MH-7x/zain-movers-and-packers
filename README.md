@@ -56,13 +56,9 @@ Reference renders are in `../designs/`.
 
 ## Images
 
-All imagery currently renders through `components/shared/PlaceholderImage.tsx`,
-which draws a neutral block at the exact final dimensions. To drop in real
-photography, pass `src` — the intrinsic size stays the same, so nothing shifts:
-
-```tsx
-<PlaceholderImage src="/photos/villa-move.jpg" width={720} height={540} alt="…" />
-```
+Image slots are plain `relative aspect-[ratio] overflow-hidden` divs sized by
+CSS aspect ratio, not fixed pixel dimensions — drop a `next/image` `<Image fill
+className="object-cover" />` straight inside to bring in real photography.
 
 OG cards in `public/og/` are generated placeholders; replace them with real
 artwork at 1200×630 using the same filenames.

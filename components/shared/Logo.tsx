@@ -1,53 +1,37 @@
+import Image from "next/image";
 import Link from "next/link";
 import { cn } from "cn";
 
-/**
- * Wordmark: terracotta index block + Source Serif 4 name + the accent dot that
- * closes the word, per the design references.
- */
+/** Intrinsic dimensions of each lockup, used only to preserve aspect ratio. */
+const LOGO = {
+  dark: { src: "/logo.svg", width: 669, height: 177 },
+  light: { src: "/logo-white.svg", width: 481, height: 128 },
+} as const;
+
 export default function Logo({
   className,
   tone = "dark",
-  withMark = true,
 }: {
   className?: string;
-  /** "dark" = dark text on light surfaces, "light" = white text on dark bands. */
+  /** "dark" = full-colour logo for light surfaces, "light" = white logo for dark bands. */
   tone?: "dark" | "light";
-  withMark?: boolean;
 }) {
+  const logo = LOGO[tone];
+
   return (
     <Link
       href="/"
       aria-label="Zain Movers and Packers — home"
-      className={cn("flex items-center gap-2.5", className)}
+      className={cn("flex shrink-0 items-center", className)}
     >
-      {withMark && (
-        <span
-          aria-hidden="true"
-          className="flex size-9 shrink-0 items-center justify-center bg-primary font-serif text-xl leading-none font-bold text-primary-foreground"
-        >
-          Z
-        </span>
-      )}
-      <span className="flex flex-col leading-none">
-        <span
-          className={cn(
-            "font-serif text-xl font-bold tracking-tight",
-            tone === "light" ? "text-background" : "text-foreground",
-          )}
-        >
-          Zain Movers
-          <span className="text-primary">.</span>
-        </span>
-        <span
-          className={cn(
-            "mt-0.5 text-[0.6rem] font-semibold tracking-[0.18em] uppercase",
-            tone === "light" ? "text-background/70" : "text-muted-foreground",
-          )}
-        >
-          &amp; Packers
-        </span>
-      </span>
+      <Image
+        src={logo.src}
+        alt="Zain Movers and Packers"
+        width={logo.width}
+        height={logo.height}
+        preload
+        className="h-9 w-auto sm:h-10"
+      />
     </Link>
   );
 }

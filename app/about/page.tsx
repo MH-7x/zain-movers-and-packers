@@ -17,7 +17,6 @@ import Accreditations from "@/components/about/Accreditations";
 import StatsBar from "@/components/shared/StatsBar";
 import SectionHeading from "@/components/shared/SectionHeading";
 import ProcessSteps from "@/components/shared/ProcessSteps";
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import FAQSection, { type Faq } from "@/components/shared/FAQSection";
 import { CTAWithForm } from "@/components/shared/CTASection";
 import { MetadataTemplate } from "@/lib/MetadataTemplate";
@@ -181,14 +180,7 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <PlaceholderImage
-                width={960}
-                height={640}
-                alt="Zain Movers crew wrapping a sofa inside the Al Quoz logistics depot"
-                label="Al Quoz logistics depot"
-                className="w-full"
-                sizes="(min-width: 1024px) 42vw, 100vw"
-              />
+              <div className="relative aspect-3/2 w-full overflow-hidden" />
 
               <dl className="mt-px grid gap-px bg-hairline sm:grid-cols-2">
                 {[

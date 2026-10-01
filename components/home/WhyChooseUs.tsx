@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { Phone } from "lucide-react";
 
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import QuoteDialog from "@/components/shared/QuoteDialog";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
 
@@ -82,14 +82,15 @@ export default function WhyChooseUs() {
               </button>
             </QuoteDialog>
 
-            <PlaceholderImage
-              width={720}
-              height={480}
-              alt="Uniformed Zain Movers crew wrapping a sofa with triple-layer edge film"
-              label="Uniformed crew wrapping sofa"
-              className="mt-8 w-full"
-              sizes="(min-width: 1024px) 30vw, 100vw"
-            />
+            <div className="relative mt-8 aspect-3/2 w-full overflow-hidden">
+              <Image
+                src="/homepage/free-moving-quote-dubai-zain-movers-packers.jpg"
+                alt="Get a free moving quote from Zain Movers and Packers Dubai"
+                fill
+                sizes="(min-width: 1024px) 30vw, 100vw"
+                className="object-cover"
+              />
+            </div>
           </div>
 
           {/* Numbered manifest */}

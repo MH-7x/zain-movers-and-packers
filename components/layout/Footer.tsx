@@ -32,7 +32,7 @@ export default function Footer() {
       <div className="wrap py-14 pb-28 md:py-20 lg:pb-20">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           <div>
-            <Logo withMark={false} />
+            <Logo />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
               Established Dubai 2015. Licensed and insured moving and packing
               solutions across Dubai and the UAE.

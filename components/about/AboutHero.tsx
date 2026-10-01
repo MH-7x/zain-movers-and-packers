@@ -1,7 +1,5 @@
 import { BadgeCheck } from "lucide-react";
 
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
-
 export default function AboutHero() {
   return (
     <section className="bg-background">
@@ -28,15 +26,7 @@ export default function AboutHero() {
         </div>
 
         <div className="relative">
-          <PlaceholderImage
-            width={960}
-            height={720}
-            priority
-            alt="Zain Movers branded truck being loaded by uniformed crew in Dubai"
-            label="Branded fleet & uniformed crew"
-            className="w-full"
-            sizes="(min-width: 1024px) 42vw, 100vw"
-          />
+          <div className="relative aspect-4/3 w-full overflow-hidden" />
 
           <div className="flex items-center gap-4 border border-hairline bg-background p-5 lg:absolute lg:-bottom-8 lg:-left-8 lg:max-w-sm lg:shadow-[0_8px_24px_-4px_rgba(31,31,31,0.08)]">
             <BadgeCheck

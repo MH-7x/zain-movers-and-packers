@@ -1,7 +1,6 @@
 import { Building2, Phone, ShieldCheck } from "lucide-react";
 
 import QuoteDialog from "@/components/shared/QuoteDialog";
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import TrustBadges, { type TrustBadge } from "@/components/shared/TrustBadges";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
 
@@ -72,7 +71,7 @@ export default function AreaHero({
         </div>
 
         <div>
-          <div className="relative aspect-square bg-secondary">
+          <div className="relative aspect-square overflow-hidden bg-secondary">
             <div className="absolute inset-x-0 bottom-0 flex flex-wrap items-center justify-between gap-3 bg-foreground/95 p-4">
               <span className="flex items-center gap-3">
                 <span

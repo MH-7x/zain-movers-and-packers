@@ -1,8 +1,6 @@
 import type { ReactNode } from "react";
 import type { LucideIcon } from "lucide-react";
 
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
-
 export interface LogisticsCard {
   icon: LucideIcon;
   title: string;
@@ -53,7 +51,7 @@ export default function LocationLogistics({
               {children}
             </div>
 
-            <div className="mt-8 relative aspect-video bg-secondary"></div>
+            <div className="relative mt-8 aspect-video overflow-hidden bg-secondary"></div>
           </div>
 
           <ul className="grid gap-px self-start bg-hairline-invert">

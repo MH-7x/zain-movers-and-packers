@@ -1,8 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Phone } from "lucide-react";
 
 import SectionHeading from "@/components/shared/SectionHeading";
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import Reveal from "@/components/shared/Reveal";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
 
@@ -14,8 +14,8 @@ interface FeaturedService {
   href: string;
   ctaLabel: string;
   phoneLabel: string;
+  imageSrc: string;
   imageAlt: string;
-  imageLabel: string;
 }
 
 interface ServiceCard {
@@ -38,9 +38,9 @@ const FEATURED: FeaturedService[] = [
     href: "/services/house-movers-dubai",
     ctaLabel: "Contact For House Move",
     phoneLabel: "Direct House Team",
+    imageSrc: "/homepage/house-movers-in-dubai-zain-movers-packers.jpg",
     imageAlt:
       "Zain Movers crew packing and dismantling furniture inside a Dubai apartment",
-    imageLabel: "Apartment relocation — Dubai",
   },
   {
     index: "02",
@@ -50,8 +50,8 @@ const FEATURED: FeaturedService[] = [
     href: "/services/furniture-movers-dubai",
     ctaLabel: "Contact For Furniture Move",
     phoneLabel: "Direct Furniture Team",
+    imageSrc: "/homepage/furniture-movers-in-dubai-zain-movers-packers.jpg",
     imageAlt: "Zain Movers carpenter dismantling a wardrobe for transport",
-    imageLabel: "Furniture relocation — Dubai",
   },
 ];
 
@@ -155,14 +155,15 @@ export default function ServicesGrid() {
                   </div>
                 </div>
 
-                <PlaceholderImage
-                  width={720}
-                  height={540}
-                  alt={service.imageAlt}
-                  label={service.imageLabel}
-                  className="w-full"
-                  sizes="(min-width: 1024px) 35vw, 100vw"
-                />
+                <div className="relative aspect-4/3 w-full overflow-hidden">
+                  <Image
+                    src={service.imageSrc}
+                    alt={service.imageAlt}
+                    fill
+                    sizes="(min-width: 1024px) 35vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
               </div>
             </Reveal>
           ))}

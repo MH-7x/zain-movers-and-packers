@@ -1,7 +1,6 @@
 import { BadgeCheck, Check, Phone, Truck } from "lucide-react";
 
 import QuoteDialog from "@/components/shared/QuoteDialog";
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import TrustBadges, { type TrustBadge } from "@/components/shared/TrustBadges";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
 
@@ -83,15 +82,7 @@ export default function LocationHero({
         </div>
 
         <div>
-          <PlaceholderImage
-            width={960}
-            height={720}
-            priority
-            alt={imageAlt}
-            label={imageLabel}
-            className="w-full"
-            sizes="(min-width: 1024px) 42vw, 100vw"
-          />
+          <div className="relative aspect-4/3 w-full overflow-hidden" />
 
           <div className="flex items-center gap-4 border border-hairline bg-background p-5">
             <BadgeCheck

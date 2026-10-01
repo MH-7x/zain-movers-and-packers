@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import { CircleCheck, ShieldCheck } from "lucide-react";
 
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import Reveal from "@/components/shared/Reveal";
 
 /**
@@ -30,14 +29,7 @@ export default function ServiceIntro({
       <div className="wrap band">
         <div className="grid gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
           <Reveal>
-            <PlaceholderImage
-              width={960}
-              height={640}
-              alt={imageAlt}
-              label={imageLabel}
-              className="w-full"
-              sizes="(min-width: 1024px) 42vw, 100vw"
-            />
+            <div className="relative aspect-3/2 w-full overflow-hidden" />
 
             <div className="mt-px bg-background p-6">
               <h3 className="flex items-center gap-2.5 text-base font-semibold">

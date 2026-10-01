@@ -1,7 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FileCheck2, ShieldCheck } from "lucide-react";
 
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import Reveal from "@/components/shared/Reveal";
 
 export default function CompanyIntro() {
@@ -23,7 +23,15 @@ export default function CompanyIntro() {
                 Established in Dubai
               </p>
             </div>
-            <div className="bg-secondary aspect-4/3 relative overflow-hidden mt-5 "></div>
+            <div className="relative mt-5 aspect-4/3 overflow-hidden bg-secondary">
+              <Image
+                src="/homepage/zain-movers-packers-dubai-established-2015.jpg"
+                alt="Zain Movers and Packers, established in Dubai in 2015"
+                fill
+                sizes="(min-width: 1024px) 30vw, 100vw"
+                className="object-cover"
+              />
+            </div>
 
             <dl className="mt-5 space-y-5 border-t border-hairline pt-6">
               <div>

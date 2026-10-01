@@ -1,9 +1,9 @@
+import Image from "next/image";
 import { Clock, MessageCircle, Phone, ShieldCheck } from "lucide-react";
 import { cn } from "cn";
 
 import QuoteForm from "@/components/shared/QuoteForm";
 import QuoteDialog from "@/components/shared/QuoteDialog";
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import { PHONE_DISPLAY, PHONE_HREF, WHATSAPP_HREF } from "@/lib/Contact";
 
 interface BaseProps {
@@ -26,13 +26,12 @@ export function CTABanner({
   return (
     <section className={cn("relative isolate overflow-hidden bg-foreground", className)}>
       <div className="absolute inset-0 -z-10 opacity-15">
-        <PlaceholderImage
-          width={1920}
-          height={1080}
+        <Image
+          src="/homepage/dubai-moving-truck-sunset-zain-movers-packers.jpg"
           alt=""
-          label="Moving crew loading a closed truck at dusk"
-          className="size-full"
+          fill
           sizes="100vw"
+          className="object-cover"
         />
       </div>
 

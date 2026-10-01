@@ -1,7 +1,6 @@
 import { Phone } from "lucide-react";
 
 import QuoteDialog from "@/components/shared/QuoteDialog";
-import PlaceholderImage from "@/components/shared/PlaceholderImage";
 import TrustBadges, { type TrustBadge } from "@/components/shared/TrustBadges";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
 
@@ -72,15 +71,7 @@ export default function ServiceHero({
         </div>
 
         <div className="relative">
-          <PlaceholderImage
-            width={960}
-            height={720}
-            priority
-            alt={imageAlt}
-            label={imageLabel}
-            className="w-full"
-            sizes="(min-width: 1024px) 42vw, 100vw"
-          />
+          <div className="relative aspect-4/3 w-full overflow-hidden" />
           <div className="flex flex-wrap items-center justify-between gap-3 bg-foreground px-5 py-4">
             <p className="flex items-center gap-2.5 text-sm font-semibold text-background">
               <span
