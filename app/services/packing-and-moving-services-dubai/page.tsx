@@ -119,7 +119,8 @@ export default function PackingAndMovingServicesDubaiPage() {
           { label: "Fully Insured", sub: "Covered from wrap to unpack" },
           { label: "No Advance Payment", sub: "Pay upon satisfaction" },
         ]}
-        imageAlt="Zain Movers packers wrapping glassware in bubble wrap before boxing"
+        imageSrc="/services/packing-services-dubai-glassware-bubble-wrap.jpg"
+        imageAlt="Zain Movers packers wrapping glassware in bubble wrap before boxing in a Dubai home"
         imageLabel="Fragile kitchenware packing"
         captionTitle="Dedicated Packing Division"
         captionMeta="All Materials Supplied"
@@ -128,7 +129,8 @@ export default function PackingAndMovingServicesDubaiPage() {
       <ServiceIntro
         eyebrow="Turnkey Packing"
         title="Skip the Stress of Packing"
-        imageAlt="Wardrobe boxes with hanging rails being filled with clothes"
+        imageSrc="/services/wardrobe-boxes-hanging-rails-packing-dubai.jpg"
+        imageAlt="Wardrobe box with hanging rail being filled with clothes by Zain Movers in Dubai"
         imageLabel="Wardrobe boxes with hanging rail"
         spec={{
           title: "Professional-Grade Materials",

@@ -139,7 +139,8 @@ export default function MoversInSharjahPage() {
           { label: "Fully Insured", sub: "Goods-in-transit cover" },
           { label: "No Advance Payment", sub: "Pay upon satisfaction" },
         ]}
-        imageAlt="Zain Movers crew carrying wrapped furniture from a Sharjah apartment building"
+        imageSrc="/locations/movers-in-sharjah-carrying-wrapped-furniture.jpg"
+        imageAlt="Zain Movers crew carrying wrapped furniture out of a Sharjah apartment building"
         imageLabel="Sharjah apartment move"
       />
 
@@ -219,6 +220,8 @@ export default function MoversInSharjahPage() {
           {
             title: "House Shifting Sharjah",
             tag: "Residential",
+            imageSrc: "/services/house-movers-dubai-crew-wrapping-sofa.jpg",
+            imageAlt: "Zain Movers crew wrapping a sofa in protective blankets inside a Sharjah apartment living room",
             body: (
               <p>
                 This is the most common service we provide in Sharjah. Studios,
@@ -232,6 +235,8 @@ export default function MoversInSharjahPage() {
           {
             title: "Apartment Movers in Sharjah",
             tag: "High-Rise",
+            imageSrc: "/services/cheap-movers-dubai-studio-apartment-move.jpg",
+            imageAlt: "Zain Movers crew loading a Sharjah apartment move into a branded truck",
             body: (
               <>
                 <p>
@@ -249,6 +254,8 @@ export default function MoversInSharjahPage() {
           {
             title: "Villa Movers Sharjah",
             tag: "Large Property",
+            imageSrc: "/services/villa-movers-dubai-carrying-sofa.jpg",
+            imageAlt: "Zain Movers crew carrying a sofa through a Sharjah villa living room",
             body: (
               <p>
                 Older villas in areas like Al Yarmuk and Al Qasimia tend to have
@@ -262,6 +269,8 @@ export default function MoversInSharjahPage() {
           {
             title: "Furniture Movers Sharjah",
             tag: "Single Items",
+            imageSrc: "/services/furniture-movers-dubai-wardrobe-dismantling.jpg",
+            imageAlt: "Zain Movers carpenter dismantling a large wardrobe in a Sharjah bedroom",
             body: (
               <p>
                 Not every move is a full house. If you have bought a second-hand
@@ -274,6 +283,8 @@ export default function MoversInSharjahPage() {
           {
             title: "Office Movers Sharjah",
             tag: "Commercial",
+            imageSrc: "/services/office-movers-dubai-wrapping-monitors.jpg",
+            imageAlt: "Zain Movers crew wrapping office monitors and workstations during an office relocation in Sharjah",
             body: (
               <p>
                 We relocate offices across Sharjah&apos;s business districts and
@@ -329,7 +340,8 @@ export default function MoversInSharjahPage() {
       <LocationLogistics
         eyebrow="Inter-Emirate Corridor"
         title="Moving from Sharjah to Dubai"
-        imageAlt="Zain Movers truck crossing between Sharjah and Dubai at sunrise"
+        imageSrc="/locations/zain-movers-truck-sharjah-dubai-sunrise.jpg"
+        imageAlt="Zain Movers truck travelling between Sharjah and Dubai at sunrise"
         imageLabel="Sharjah – Dubai corridor"
         cards={[
           {

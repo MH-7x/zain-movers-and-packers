@@ -171,7 +171,8 @@ export default function MoversInAbuDhabiPage() {
           { label: "Fully Insured", sub: "Goods-in-transit cover" },
           { label: "No Advance Payment", sub: "Pay upon satisfaction" },
         ]}
-        imageAlt="Zain Movers crew unloading a closed truck outside an Abu Dhabi tower"
+        imageSrc="/locations/movers-in-abu-dhabi-unloading-truck-tower.jpg"
+        imageAlt="Zain Movers crew unloading a branded truck outside an Abu Dhabi residential tower"
         imageLabel="Abu Dhabi relocation"
       />
 
@@ -249,6 +250,9 @@ export default function MoversInAbuDhabiPage() {
           {
             title: "Apartment and House Movers in Abu Dhabi",
             tag: "Residential",
+            imageSrc: "/services/house-movers-dubai-crew-wrapping-sofa.jpg",
+            imageAlt:
+              "Zain Movers crew wrapping a sofa in protective blankets inside an Abu Dhabi apartment living room",
             body: (
               <>
                 <p>
@@ -269,6 +273,8 @@ export default function MoversInAbuDhabiPage() {
           {
             title: "Villa Relocation",
             tag: "Large Property",
+            imageSrc: "/services/villa-movers-dubai-carrying-sofa.jpg",
+            imageAlt: "Zain Movers crew carrying a sofa through an Abu Dhabi villa living room",
             body: (
               <p>
                 Moving a villa in Saadiyat or Al Raha requires a large team. We
@@ -281,6 +287,8 @@ export default function MoversInAbuDhabiPage() {
           {
             title: "Furniture Movers Abu Dhabi",
             tag: "Single Items",
+            imageSrc: "/services/furniture-movers-dubai-wardrobe-dismantling.jpg",
+            imageAlt: "Zain Movers carpenter dismantling a large wardrobe in an Abu Dhabi bedroom",
             body: (
               <p>
                 Do you just need a few items moved? We operate as dedicated
@@ -294,6 +302,9 @@ export default function MoversInAbuDhabiPage() {
           {
             title: "Office Relocation",
             tag: "Commercial",
+            imageSrc: "/services/office-movers-dubai-wrapping-monitors.jpg",
+            imageAlt:
+              "Zain Movers crew wrapping office monitors and workstations during an office relocation in Abu Dhabi",
             body: (
               <p>
                 For businesses in Abu Dhabi, time is money. We move offices
@@ -308,6 +319,7 @@ export default function MoversInAbuDhabiPage() {
       <LocationLogistics
         eyebrow="Inter-Emirate Corridor"
         title="Moving Between Dubai and Abu Dhabi?"
+        imageSrc="/locations/zain-movers-truck-e11-dubai-abu-dhabi.jpg"
         imageAlt="Zain Movers closed truck travelling the E11 highway between Dubai and Abu Dhabi"
         imageLabel="E11 corridor transit"
         cards={[

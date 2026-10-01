@@ -120,7 +120,8 @@ export default function CheapMoversDubaiPage() {
           { label: "Fully Insured", sub: "Licensed, legal and covered" },
           { label: "No Advance Payment", sub: "Pay upon satisfaction" },
         ]}
-        imageAlt="Zain Movers crew loading a studio apartment move into a branded truck"
+        imageSrc="/services/cheap-movers-dubai-studio-apartment-move.jpg"
+        imageAlt="Zain Movers crew loading a studio apartment move into a branded truck in Dubai"
         imageLabel="Budget apartment move — Dubai"
         captionTitle="Efficient Small-Move Crews"
         captionMeta="Owned Fleet"
@@ -129,7 +130,8 @@ export default function CheapMoversDubaiPage() {
       <ServiceIntro
         eyebrow="Honest Budget Moving"
         title="Affordable Moving Without the Headaches"
-        imageAlt="Mover handing a written fixed-price quotation to a customer"
+        imageSrc="/services/fixed-price-moving-quotation-dubai.jpg"
+        imageAlt="Zain Movers mover handing a written fixed-price quotation to a customer in Dubai"
         imageLabel="Fixed-price quotation"
         spec={{
           title: "What We Quote Is What You Pay",

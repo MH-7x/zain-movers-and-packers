@@ -190,6 +190,7 @@ export default function MoversInAlAinPage() {
           { label: "Expert Carpenters", sub: "Majlis & custom joinery" },
           { label: "No Advance Payment", sub: "Pay upon satisfaction" },
         ]}
+        imageSrc="/locations/movers-in-al-ain-wrapping-majlis-seating-villa.jpg"
         imageAlt="Zain Movers crew wrapping majlis seating inside an Al Ain villa"
         imageLabel="Al Ain villa relocation"
       />
@@ -260,6 +261,8 @@ export default function MoversInAlAinPage() {
           {
             title: "Villa Movers in Al Ain",
             tag: "Large Property",
+            imageSrc: "/services/villa-movers-dubai-carrying-sofa.jpg",
+            imageAlt: "Zain Movers crew carrying a sofa through an Al Ain villa living room",
             body: (
               <p>
                 Villas in Al Ain are spacious and usually filled with heavy
@@ -272,6 +275,8 @@ export default function MoversInAlAinPage() {
           {
             title: "Flat and Apartment Moving in Al Ain",
             tag: "Residential",
+            imageSrc: "/services/house-movers-dubai-crew-wrapping-sofa.jpg",
+            imageAlt: "Zain Movers crew wrapping a sofa in protective blankets inside an Al Ain apartment living room",
             body: (
               <p>
                 If you live in a smaller apartment or a shared compound, we
@@ -284,6 +289,8 @@ export default function MoversInAlAinPage() {
           {
             title: "Expert Furniture Assembly",
             tag: "Carpentry",
+            imageSrc: "/services/sofa-stretch-film-corner-guards-dubai.jpg",
+            imageAlt: "Sofa wrapped in stretch film and corner guards before loading by Zain Movers in Al Ain",
             body: (
               <p>
                 Do not worry about losing screws or damaging the wood. Our team
@@ -297,6 +304,8 @@ export default function MoversInAlAinPage() {
           {
             title: "Furniture Movers in Al Ain",
             tag: "Carpentry",
+            imageSrc: "/services/furniture-movers-dubai-wardrobe-dismantling.jpg",
+            imageAlt: "Zain Movers carpenter dismantling a large wardrobe in an Al Ain bedroom",
             body: (
               <p>
                 Large bedroom sets and modular wardrobes require careful
@@ -311,6 +320,8 @@ export default function MoversInAlAinPage() {
           {
             title: "Office and Commercial Moving",
             tag: "Commercial",
+            imageSrc: "/services/office-movers-dubai-wrapping-monitors.jpg",
+            imageAlt: "Zain Movers crew wrapping office monitors and workstations during an office relocation in Al Ain",
             body: (
               <p>
                 Business downtime costs money. We move commercial offices,
@@ -367,6 +378,7 @@ export default function MoversInAlAinPage() {
       <LocationLogistics
         eyebrow="Inter-Emirate Moving"
         title="Moving from Al Ain to Abu Dhabi or Dubai?"
+        imageSrc="/locations/zain-movers-truck-al-ain-abu-dhabi-highway.jpg"
         imageAlt="Zain Movers truck on the highway between Al Ain and Abu Dhabi"
         imageLabel="Al Ain highway transit"
         cards={[

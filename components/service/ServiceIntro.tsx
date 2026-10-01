@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { CircleCheck, ShieldCheck } from "lucide-react";
 
 import Reveal from "@/components/shared/Reveal";
@@ -12,6 +13,7 @@ export default function ServiceIntro({
   title,
   children,
   checklist,
+  imageSrc,
   imageAlt,
   imageLabel,
   spec,
@@ -20,6 +22,7 @@ export default function ServiceIntro({
   title: string;
   children: ReactNode;
   checklist: string[];
+  imageSrc: string;
   imageAlt: string;
   imageLabel: string;
   spec: { title: string; body: string };
@@ -29,7 +32,15 @@ export default function ServiceIntro({
       <div className="wrap band">
         <div className="grid gap-10 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
           <Reveal>
-            <div className="relative aspect-3/2 w-full overflow-hidden" />
+            <div className="relative aspect-3/2 w-full overflow-hidden bg-secondary">
+              <Image
+                src={imageSrc}
+                alt={imageAlt}
+                fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
 
             <div className="mt-px bg-background p-6">
               <h3 className="flex items-center gap-2.5 text-base font-semibold">
@@ -46,7 +57,7 @@ export default function ServiceIntro({
           </Reveal>
           <div>
             <p className="eyebrow">{eyebrow}</p>
-            <h2 className="mt-5 max-w-[16ch] text-3xl leading-[1.15] md:text-4xl">
+            <h2 className="mt-5 max-w-[20ch] text-3xl leading-[1.15] md:text-4xl">
               {title}
             </h2>
 
@@ -69,8 +80,6 @@ export default function ServiceIntro({
               ))}
             </ul>
           </div>
-
-         
         </div>
       </div>
     </section>

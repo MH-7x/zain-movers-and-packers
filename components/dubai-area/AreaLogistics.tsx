@@ -36,7 +36,7 @@ export default function AreaLogistics({
           {proofImages.map((image, index) => (
             <li key={image.caption}>
               <Reveal delay={index * 70}>
-                <div className="relative aspect-video overflow-hidden"></div>
+                <div className="relative aspect-video overflow-hidden bg-hairline"></div>
                 <div className="bg-background p-4">
                   <p className="text-sm font-semibold text-foreground">
                     {image.caption}

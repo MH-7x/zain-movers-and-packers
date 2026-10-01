@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 
 import SectionHeading from "@/components/shared/SectionHeading";
 import Reveal from "@/components/shared/Reveal";
@@ -8,6 +9,8 @@ export interface LocationService {
   /** One or two paragraphs of scope detail. */
   body: ReactNode;
   tag: string;
+  imageSrc: string;
+  imageAlt: string;
 }
 
 /**
@@ -50,7 +53,15 @@ export default function LocationServices({
                     Contact for {service.tag} Moving
                   </Button>
                 </div>
-                <div className="aspect-4/3 bg-secondary lg:col-span-4"></div>
+                <div className="relative aspect-4/3 overflow-hidden bg-secondary lg:col-span-4">
+                  <Image
+                    src={service.imageSrc}
+                    alt={service.imageAlt}
+                    fill
+                    sizes="(min-width: 1024px) 35vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
               </Reveal>
             </li>
           ))}

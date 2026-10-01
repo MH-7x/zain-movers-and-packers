@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Phone } from "lucide-react";
 
 import QuoteDialog from "@/components/shared/QuoteDialog";
@@ -15,6 +16,7 @@ export default function ServiceHero({
   subtitle,
   primaryCta,
   badges,
+  imageSrc,
   imageAlt,
   imageLabel,
   captionTitle,
@@ -25,6 +27,7 @@ export default function ServiceHero({
   subtitle: string;
   primaryCta: string;
   badges: TrustBadge[];
+  imageSrc: string;
   imageAlt: string;
   imageLabel: string;
   captionTitle: string;
@@ -71,7 +74,16 @@ export default function ServiceHero({
         </div>
 
         <div className="relative">
-          <div className="relative aspect-4/3 w-full overflow-hidden" />
+          <div className="relative aspect-4/3 w-full overflow-hidden bg-secondary">
+            <Image
+              src={imageSrc}
+              alt={imageAlt}
+              fill
+              priority
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
+            />
+          </div>
           <div className="flex flex-wrap items-center justify-between gap-3 bg-foreground px-5 py-4">
             <p className="flex items-center gap-2.5 text-sm font-semibold text-background">
               <span

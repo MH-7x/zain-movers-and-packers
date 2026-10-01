@@ -122,7 +122,8 @@ export default function HouseMoversDubaiPage() {
           { label: "1,000+ Homes Moved", sub: "Across the UAE since 2015" },
           { label: "Fully Insured", sub: "Cover from packing to placement" },
         ]}
-        imageAlt="Zain Movers crew wrapping a sofa in a Dubai apartment living room"
+        imageSrc="/services/house-movers-dubai-crew-wrapping-sofa.jpg"
+        imageAlt="Zain Movers crew wrapping a sofa in protective blankets inside a Dubai apartment living room"
         imageLabel="Residential moving crew — Dubai"
         captionTitle="White-Glove Residential Moving Crew"
         captionMeta="Dubai & UAE"
@@ -131,7 +132,8 @@ export default function HouseMoversDubaiPage() {
       <ServiceIntro
         eyebrow="Institutional Care & Precision"
         title="Stress-Free Home Shifting in Dubai"
-        imageAlt="Movers protecting a mattress with heavy blankets before loading"
+        imageSrc="/services/mattress-protective-packing-dubai-movers.jpg"
+        imageAlt="Movers protecting a mattress with heavy blankets and stretch film before loading in Dubai"
         imageLabel="Triple-layer protective packing"
         spec={{
           title: "Triple-Layer Material Specification",

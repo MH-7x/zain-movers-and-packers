@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BadgeCheck, Check, Phone, Truck } from "lucide-react";
 
 import QuoteDialog from "@/components/shared/QuoteDialog";
@@ -15,6 +16,7 @@ export default function LocationHero({
   subtitle,
   reasons,
   badges,
+  imageSrc,
   imageAlt,
   imageLabel,
 }: {
@@ -23,6 +25,7 @@ export default function LocationHero({
   subtitle: string;
   reasons: string[];
   badges: TrustBadge[];
+  imageSrc: string;
   imageAlt: string;
   imageLabel: string;
 }) {
@@ -82,7 +85,16 @@ export default function LocationHero({
         </div>
 
         <div>
-          <div className="relative aspect-4/3 w-full overflow-hidden" />
+          <div className="relative aspect-4/3 w-full overflow-hidden bg-secondary">
+            <Image
+              src={imageSrc}
+              alt={imageAlt}
+              fill
+              priority
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
+            />
+          </div>
 
           <div className="flex items-center gap-4 border border-hairline bg-background p-5">
             <BadgeCheck

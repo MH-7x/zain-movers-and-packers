@@ -160,6 +160,7 @@ export default function MoversInRasAlKhaimahPage() {
           { label: "Expert Packing", sub: "All materials supplied" },
           { label: "No Advance Payment", sub: "Pay upon satisfaction" },
         ]}
+        imageSrc="/locations/movers-in-ras-al-khaimah-villa-unloading.jpg"
         imageAlt="Zain Movers crew unloading wrapped furniture at a Ras Al Khaimah villa"
         imageLabel="RAK villa relocation"
       />
@@ -228,6 +229,8 @@ export default function MoversInRasAlKhaimahPage() {
           {
             title: "Villa Movers in Ras Al Khaimah",
             tag: "Large Property",
+            imageSrc: "/services/villa-movers-dubai-wrapping-oversized-wardrobe.jpg",
+            imageAlt: "Movers wrapping an oversized wardrobe before loading it from a Ras Al Khaimah villa",
             body: (
               <p>
                 Villas in RAK are spacious and often contain large, heavy wooden
@@ -240,6 +243,8 @@ export default function MoversInRasAlKhaimahPage() {
           {
             title: "Studio and Apartment Moving in RAK",
             tag: "Residential",
+            imageSrc: "/services/cheap-movers-dubai-studio-apartment-move.jpg",
+            imageAlt: "Zain Movers crew loading a studio apartment move into a branded truck in Ras Al Khaimah",
             body: (
               <p>
                 If you live in a smaller apartment, you get our fast and
@@ -252,6 +257,8 @@ export default function MoversInRasAlKhaimahPage() {
           {
             title: "Furniture Movers Ras Al Khaimah",
             tag: "Carpentry",
+            imageSrc: "/services/furniture-movers-dubai-wardrobe-dismantling.jpg",
+            imageAlt: "Zain Movers carpenter dismantling a large wardrobe in a Ras Al Khaimah bedroom",
             body: (
               <p>
                 Taking apart large wardrobes, beds, and modular shelving units
@@ -266,6 +273,8 @@ export default function MoversInRasAlKhaimahPage() {
           {
             title: "Furniture Dismantling and Assembly",
             tag: "Carpentry",
+            imageSrc: "/services/sofa-stretch-film-corner-guards-dubai.jpg",
+            imageAlt: "Sofa wrapped in stretch film and corner guards before loading by Zain Movers in Ras Al Khaimah",
             body: (
               <p>
                 Do not try to take apart a massive sliding wardrobe by yourself.
@@ -279,6 +288,8 @@ export default function MoversInRasAlKhaimahPage() {
           {
             title: "Office and Business Relocation",
             tag: "Commercial",
+            imageSrc: "/services/server-rack-anti-static-packing-dubai.jpg",
+            imageAlt: "Anti-static packing being applied to a server rack before transport by Zain Movers in Ras Al Khaimah",
             body: (
               <p>
                 Relocating a business or branch office in RAK requires minimal
@@ -335,6 +346,7 @@ export default function MoversInRasAlKhaimahPage() {
       <LocationLogistics
         eyebrow="Inter-Emirate Moving"
         title="Moving from Ras Al Khaimah to Dubai?"
+        imageSrc="/locations/zain-movers-truck-e311-ras-al-khaimah-dubai.jpg"
         imageAlt="Zain Movers truck on the E311 highway between Ras Al Khaimah and Dubai"
         imageLabel="RAK to Dubai transit"
         cards={[

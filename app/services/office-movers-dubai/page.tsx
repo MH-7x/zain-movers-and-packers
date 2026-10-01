@@ -119,7 +119,8 @@ export default function OfficeMoversDubaiPage() {
           { label: "Zero Downtime Moves", sub: "Weekend & overnight windows" },
           { label: "Fully Insured", sub: "IT assets covered end to end" },
         ]}
-        imageAlt="Zain Movers crew wrapping office monitors and workstations in Dubai"
+        imageSrc="/services/office-movers-dubai-wrapping-monitors.jpg"
+        imageAlt="Zain Movers crew wrapping office monitors and workstations during an office relocation in Dubai"
         imageLabel="Commercial relocation crew — Dubai"
         captionTitle="Corporate Relocation Division"
         captionMeta="After-Hours Dispatch"
@@ -128,7 +129,8 @@ export default function OfficeMoversDubaiPage() {
       <ServiceIntro
         eyebrow="Business Continuity First"
         title="Fast and Organized Office Movers in Dubai"
-        imageAlt="Anti-static packing being applied to a server rack before transport"
+        imageSrc="/services/server-rack-anti-static-packing-dubai.jpg"
+        imageAlt="Anti-static packing being applied to a server rack before transport by Zain Movers in Dubai"
         imageLabel="Server rack anti-static packing"
         spec={{
           title: "Anti-Static IT Handling",

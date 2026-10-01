@@ -120,6 +120,7 @@ export default function VillaMoversDubaiPage() {
           { label: "Heavy Furniture Experts", sub: "Master carpenters on staff" },
           { label: "Fully Insured", sub: "Cargo cover on every villa move" },
         ]}
+        imageSrc="/services/villa-movers-dubai-carrying-sofa.jpg"
         imageAlt="Zain Movers crew carrying a sofa through a Dubai villa living room"
         imageLabel="Villa relocation crew — Dubai"
         captionTitle="Dedicated Villa Relocation Crew"
@@ -129,7 +130,8 @@ export default function VillaMoversDubaiPage() {
       <ServiceIntro
         eyebrow="Large Property Logistics"
         title="Expert Villa Movers and Packers in Dubai"
-        imageAlt="Movers wrapping an oversized wardrobe before loading it from a villa"
+        imageSrc="/services/villa-movers-dubai-wrapping-oversized-wardrobe.jpg"
+        imageAlt="Movers wrapping an oversized wardrobe before loading it from a Dubai villa"
         imageLabel="Custom joinery protection"
         spec={{
           title: "Property Protection Protocol",

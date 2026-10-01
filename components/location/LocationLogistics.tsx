@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import type { LucideIcon } from "lucide-react";
 
 export interface LogisticsCard {
@@ -19,6 +20,7 @@ export default function LocationLogistics({
   subtitle,
   children,
   cards,
+  imageSrc,
   imageAlt,
   imageLabel,
 }: {
@@ -28,6 +30,7 @@ export default function LocationLogistics({
   subtitle?: string;
   children: ReactNode;
   cards: LogisticsCard[];
+  imageSrc: string;
   imageAlt: string;
   imageLabel: string;
 }) {
@@ -51,7 +54,15 @@ export default function LocationLogistics({
               {children}
             </div>
 
-            <div className="relative mt-8 aspect-video overflow-hidden bg-secondary"></div>
+            <div className="relative mt-8 aspect-video overflow-hidden bg-secondary">
+              <Image
+                src={imageSrc}
+                alt={imageAlt}
+                fill
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </div>
           </div>
 
           <ul className="grid gap-px self-start bg-hairline-invert">

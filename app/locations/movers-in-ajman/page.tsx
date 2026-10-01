@@ -167,6 +167,7 @@ export default function MoversInAjmanPage() {
           { label: "Expert Packing", sub: "Heavy-duty materials supplied" },
           { label: "No Advance Payment", sub: "Pay upon satisfaction" },
         ]}
+        imageSrc="/locations/movers-in-ajman-wrapped-furniture-apartment.jpg"
         imageAlt="Zain Movers team carrying wrapped furniture into an Ajman apartment building"
         imageLabel="Ajman residential move"
       />
@@ -234,6 +235,8 @@ export default function MoversInAjmanPage() {
           {
             title: "House and Apartment Moving",
             tag: "Residential",
+            imageSrc: "/services/house-movers-dubai-crew-wrapping-sofa.jpg",
+            imageAlt: "Zain Movers crew wrapping a sofa in protective blankets inside an Ajman apartment living room",
             body: (
               <p>
                 This is what we do best. Whether you are moving a small studio
@@ -246,6 +249,8 @@ export default function MoversInAjmanPage() {
           {
             title: "Furniture Dismantling and Assembly",
             tag: "Carpentry",
+            imageSrc: "/services/furniture-movers-dubai-wardrobe-dismantling.jpg",
+            imageAlt: "Zain Movers carpenter dismantling a large wardrobe in an Ajman bedroom",
             body: (
               <p>
                 Do not worry about losing screws or damaging the wood. Our team
@@ -258,6 +263,8 @@ export default function MoversInAjmanPage() {
           {
             title: "Commercial and Office Moving",
             tag: "Commercial",
+            imageSrc: "/services/office-movers-dubai-wrapping-monitors.jpg",
+            imageAlt: "Zain Movers crew wrapping office monitors and workstations during an office relocation in Ajman",
             body: (
               <p>
                 If you are relocating a business in Ajman, we know you cannot
@@ -270,6 +277,8 @@ export default function MoversInAjmanPage() {
           {
             title: "Single-Item and Urgent Moves",
             tag: "Same Day",
+            imageSrc: "/services/cheap-movers-dubai-studio-apartment-move.jpg",
+            imageAlt: "Zain Movers crew loading a single-item move into a branded truck in Ajman",
             body: (
               <p>
                 If you bought a heavy sofa online or need a fridge moved to
@@ -324,6 +333,7 @@ export default function MoversInAjmanPage() {
         eyebrow="Our Fleet"
         title="Our Moving Fleet in Ajman"
         subtitle="The Right Covered Truck for Every Job"
+        imageSrc="/locations/zain-movers-covered-fleet-ajman-dispatch.jpg"
         imageAlt="Zain Movers covered trucks lined up before an Ajman dispatch"
         imageLabel="Covered fleet — Ajman dispatch"
         cards={[

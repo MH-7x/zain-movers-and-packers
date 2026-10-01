@@ -118,6 +118,7 @@ export default function FurnitureMoversDubaiPage() {
           { label: "Fully Insured", sub: "Cover from dismantle to rebuild" },
           { label: "No Advance Payment", sub: "Settle only once rebuilt" },
         ]}
+        imageSrc="/services/furniture-movers-dubai-wardrobe-dismantling.jpg"
         imageAlt="Zain Movers carpenter dismantling a large wardrobe in a Dubai bedroom"
         imageLabel="Carpenter dismantling wardrobe"
         captionTitle="In-House Carpentry Team"
@@ -127,7 +128,8 @@ export default function FurnitureMoversDubaiPage() {
       <ServiceIntro
         eyebrow="Precision Handling"
         title="Safe and Reliable Furniture Moving"
-        imageAlt="Sofa wrapped in stretch film and corner guards before loading"
+        imageSrc="/services/sofa-stretch-film-corner-guards-dubai.jpg"
+        imageAlt="Sofa wrapped in stretch film and corner guards before loading by Zain Movers in Dubai"
         imageLabel="Stretch film & corner guards"
         spec={{
           title: "Labelled Fixings Protocol",
