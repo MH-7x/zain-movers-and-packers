@@ -1,12 +1,7 @@
 import type { ReactNode } from "react";
+import { ChevronDownIcon } from "lucide-react";
 import { cn } from "cn";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import SectionHeading from "@/components/shared/SectionHeading";
 import { convertFaqsForSchema } from "@/lib/ConvertFaqsInRaw";
 import { generateFAQSchema } from "@/lib/GenerateFaqSchema";
@@ -43,30 +38,36 @@ export default function FAQSection({
       <div className="wrap band">
         <SectionHeading eyebrow={eyebrow} title={heading} lede={lede} />
 
-        <Accordion className="mt-10 gap-px bg-hairline">
+        <div className="mt-10 flex flex-col gap-px bg-hairline">
           {faqs.map((faq, index) => (
-            <AccordionItem
+            <details
+              open={index === 0}
               key={faq.question}
-              value={faq.question}
-              className="border-b-0 bg-secondary px-5 md:px-7"
+              className="group bg-secondary px-5 md:px-7"
             >
-              <AccordionTrigger className="items-center gap-4 py-5 text-base font-semibold text-foreground hover:no-underline md:text-lg">
-                <span className="flex items-baseline gap-4 pr-4 text-left">
+              <summary className="flex cursor-pointer list-none items-center gap-4 py-5 marker:content-none [&::-webkit-details-marker]:hidden">
+                <span className="flex flex-1 items-baseline gap-4 pr-4 text-left">
                   <span
                     className="index-marker shrink-0 text-lg text-primary"
                     aria-hidden="true"
                   >
                     {String(index + 1).padStart(2, "0")}
                   </span>
-                  {faq.question}
+                  <h3 className="text-base font-semibold text-foreground md:text-lg">
+                    {faq.question}
+                  </h3>
                 </span>
-              </AccordionTrigger>
-              <AccordionContent className="pb-6 text-sm leading-relaxed text-muted-foreground md:pl-11">
+                <ChevronDownIcon
+                  aria-hidden="true"
+                  className="size-4 shrink-0 text-muted-foreground transition-transform duration-200 group-open:rotate-180"
+                />
+              </summary>
+              <div className="pb-6 text-sm leading-relaxed text-muted-foreground md:pl-11">
                 {faq.answer}
-              </AccordionContent>
-            </AccordionItem>
+              </div>
+            </details>
           ))}
-        </Accordion>
+        </div>
       </div>
     </section>
   );

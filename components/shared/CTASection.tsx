@@ -24,11 +24,16 @@ export function CTABanner({
   className,
 }: BaseProps) {
   return (
-    <section className={cn("relative isolate overflow-hidden bg-foreground", className)}>
+    <section
+      className={cn(
+        "relative isolate overflow-hidden bg-foreground",
+        className,
+      )}
+    >
       <div className="absolute inset-0 -z-10 opacity-15">
         <Image
           src="/homepage/dubai-moving-truck-sunset-zain-movers-packers.jpg"
-          alt=""
+          alt="moving company truck in Dubai at sunset"
           fill
           sizes="100vw"
           className="object-cover"
@@ -80,7 +85,9 @@ export function CTAWithForm({
   const isDark = tone === "dark";
 
   return (
-    <section className={cn(isDark ? "bg-secondary" : "bg-background", className)}>
+    <section
+      className={cn(isDark ? "bg-secondary" : "bg-background", className)}
+    >
       <div className="wrap band">
         <div
           className={cn(
