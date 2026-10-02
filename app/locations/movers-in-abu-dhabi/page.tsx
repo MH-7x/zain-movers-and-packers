@@ -23,8 +23,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/locations/movers-in-abu-dhabi";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in Abu Dhabi | Reliable Movers and Packers",
-  desc: "Looking for a reliable moving company in Abu Dhabi? We offer house, villa, and furniture moving across Al Reem, Yas, and Saadiyat. Pay upon satisfaction.",
+  title: "Movers in Abu Dhabi | Fixed Quote, Pay After the Move",
+  desc: "Movers and packers in Abu Dhabi covering Al Reem, Yas Island, Khalifa City and Musaffah. Fixed quotes, no hidden fees, pay when satisfied.",
   path: PATH,
   image: {
     path: "/locations/movers-in-abu-dhabi-unloading-truck-tower.jpg",

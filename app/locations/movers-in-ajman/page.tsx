@@ -26,8 +26,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/locations/movers-in-ajman";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in Ajman | Reliable Movers and Packers Ajman",
-  desc: "Professional movers and packers in Ajman. We cover Ajman Downtown, Al Nuaimia, and Rashidiya. Safe packing, no hidden fees. Get a free fixed quote.",
+  title: "Movers in Ajman | Affordable Home & Villa Shifting",
+  desc: "Movers and packers in Ajman covering Al Nuaimia, Rashidiya and Ajman Corniche. Careful packing, fixed price, and you pay only when satisfied.",
   path: PATH,
   image: {
     path: "/locations/movers-in-ajman-wrapped-furniture-apartment.jpg",

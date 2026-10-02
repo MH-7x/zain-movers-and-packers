@@ -16,8 +16,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/dubai/movers-in-business-bay";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in Business Bay | Zain Movers and Packers Dubai",
-  desc: "Professional movers and packers in Business Bay Dubai. We specialize in corporate office relocations and high-rise apartment moving. Pay upon satisfaction.",
+  title: "Movers in Business Bay | Weekend Office & Apartment Moves",
+  desc: "Movers in Business Bay for corporate offices and high-rise apartments. Overnight and weekend moves, NOC support, and you pay when satisfied.",
   path: PATH,
   image: {
     path: "/sub-locations/movers-in-business-bay-office-relocation.jpg",

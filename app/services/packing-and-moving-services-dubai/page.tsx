@@ -25,8 +25,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/services/packing-and-moving-services-dubai";
 
 export const metadata = MetadataTemplate({
-  title: "Packing and Moving Services Dubai | Professional Packers",
-  desc: "Fast and safe packing and moving services in Dubai. We provide all materials, pack your items securely, and move them. Pay only when satisfied.",
+  title: "Packing and Moving Services Dubai | All Materials Included",
+  desc: "Packing and moving services in Dubai with bubble wrap, cartons, crating and labelling included. Fragile items fully protected. Get a fixed quote.",
   path: PATH,
   image: {
     path: "/services/packing-services-dubai-glassware-bubble-wrap.jpg",

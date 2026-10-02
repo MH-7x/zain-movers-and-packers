@@ -25,8 +25,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/services/villa-movers-dubai";
 
 export const metadata = MetadataTemplate({
-  title: "Villa Movers in Dubai | Professional Villa Moving Services",
-  desc: "Expert villa movers in Dubai. We handle large properties, garden furniture, and heavy items. No hidden fees. Pay upon satisfaction. Get a free quote today.",
+  title: "Villa Movers in Dubai | Free Pre-Move Survey & Fixed Price",
+  desc: "Villa movers in Dubai with in-house carpenters for heavy wardrobes, garden and custom furniture. Free survey, fixed quote, pay after the move.",
   path: PATH,
   image: {
     path: "/services/villa-movers-dubai-carrying-sofa.jpg",

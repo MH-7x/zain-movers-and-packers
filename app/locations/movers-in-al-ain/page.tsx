@@ -24,8 +24,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/locations/movers-in-al-ain";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in Al Ain | Reliable Movers & Packers Al Ain",
-  desc: "Professional movers and packers in Al Ain. We handle villa and apartment moves in Al Jimi, Zakher, and Falaj Hazzaa. No hidden fees. Get a free quote.",
+  title: "Movers in Al Ain | Villa & Apartment Moves, Fixed Price",
+  desc: "Movers and packers in Al Ain covering Hili, Al Jimi and Central District. Fixed quotes, no hidden fees, and you pay only when satisfied.",
   path: PATH,
   image: {
     path: "/locations/movers-in-al-ain-wrapping-majlis-seating-villa.jpg",

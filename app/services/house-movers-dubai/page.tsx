@@ -26,8 +26,8 @@ import { PHONE_HREF } from "@/lib/Contact";
 const PATH = "/services/house-movers-dubai";
 
 export const metadata = MetadataTemplate({
-  title: "House Movers in Dubai | Reliable Home Shifting Services",
-  desc: "Looking for house movers in Dubai? We offer professional home shifting services with transparent pricing. Pay only when you are satisfied. Get a free quote.",
+  title: "House Movers in Dubai | Pay Only When You're Satisfied",
+  desc: "House movers in Dubai who pack, dismantle and set up your home. Fixed price, no hidden fees, and you pay only when satisfied. Get a free quote.",
   path: PATH,
   image: {
     path: "/services/house-movers-dubai-crew-wrapping-sofa.jpg",

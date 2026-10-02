@@ -25,8 +25,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/locations/movers-in-sharjah";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in Sharjah | Reliable Movers and Packers Sharjah",
-  desc: "Trusted movers and packers in Sharjah. We cover Al Nahda, Muweilah, Al Majaz and all areas. No hidden fees. Pay upon satisfaction. Get a free quote.",
+  title: "Movers in Sharjah | Same-Day Moves, No Hidden Fees",
+  desc: "Movers and packers in Sharjah for Al Nahda, Muweilah, Al Majaz and University City. Same-day slots, fixed quotes, pay after the move.",
   path: PATH,
   image: {
     path: "/locations/movers-in-sharjah-carrying-wrapped-furniture.jpg",

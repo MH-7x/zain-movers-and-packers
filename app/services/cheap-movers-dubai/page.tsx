@@ -24,8 +24,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/services/cheap-movers-dubai";
 
 export const metadata = MetadataTemplate({
-  title: "Cheap Movers and Packers in Dubai | Affordable Home Shifting",
-  desc: "Looking for cheap movers and packers in Dubai? Get affordable moving services with zero hidden fees. Pay only when you are satisfied. Get a free fixed quote.",
+  title: "Cheap Movers and Packers in Dubai | From AED 650",
+  desc: "Cheap movers and packers in Dubai with fixed quotes from AED 650. No stair, Friday or Salik charges, and you pay only when satisfied. Get a quote.",
   path: PATH,
   image: {
     path: "/services/cheap-movers-dubai-studio-apartment-move.jpg",

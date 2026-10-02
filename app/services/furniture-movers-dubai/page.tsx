@@ -24,8 +24,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/services/furniture-movers-dubai";
 
 export const metadata = MetadataTemplate({
-  title: "Furniture Movers in Dubai | Packing & Assembly Services",
-  desc: "Expert furniture movers in Dubai. We handle dismantling, packing, transport, and reassembly. Safe, insured, and no hidden fees. Get a free quote today.",
+  title: "Furniture Movers in Dubai | Dismantle, Move & Reassemble",
+  desc: "Furniture movers in Dubai for single items or full sets. We dismantle, wrap, move and reassemble IKEA, custom and antique pieces. Free quote.",
   path: PATH,
   image: {
     path: "/services/furniture-movers-dubai-wardrobe-dismantling.jpg",

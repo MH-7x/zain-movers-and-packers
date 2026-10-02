@@ -24,8 +24,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/locations/movers-in-ras-al-khaimah";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in Ras Al Khaimah | Professional RAK Movers",
-  desc: "Top-rated movers and packers in Ras Al Khaimah. We handle villa, apartment, and office moves in Al Hamra, Marjan Island, and Khuzam. No hidden fees.",
+  title: "Movers in Ras Al Khaimah | Fixed Price, No Hidden Fees",
+  desc: "Movers and packers in Ras Al Khaimah for Al Hamra, Khuzam and Marjan Island. Villa and apartment moves with fixed quotes. Pay after the move.",
   path: PATH,
   image: {
     path: "/locations/movers-in-ras-al-khaimah-villa-unloading.jpg",

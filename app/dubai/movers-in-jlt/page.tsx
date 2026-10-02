@@ -16,8 +16,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/dubai/movers-in-jlt";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in JLT Dubai | Zain Movers and Packers",
-  desc: "Expert movers and packers in Jumeirah Lake Towers (JLT). We handle high-rise apartments and corporate offices safely. Pay upon satisfaction.",
+  title: "Movers in JLT Dubai | Apartment & Office Moves, NOC Help",
+  desc: "Movers in Jumeirah Lake Towers (JLT) for high-rise apartments and offices. We sort NOCs and security passes for you. Pay only when satisfied.",
   path: PATH,
   image: {
     path: "/sub-locations/movers-in-jlt-basement-loading-bay.jpg",

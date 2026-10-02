@@ -23,8 +23,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/dubai/movers-in-dubai-marina";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in Dubai Marina | Zain Movers and Packers",
-  desc: "Professional movers and packers in Dubai Marina. We handle high-rise apartments and penthouses. No hidden fees. Pay upon satisfaction.",
+  title: "Movers in Dubai Marina | High-Rise & Tower Specialists",
+  desc: "Movers in Dubai Marina for apartments and penthouses. We handle building NOCs, security passes and tower logistics. Pay only when satisfied.",
   path: PATH,
   image: {
     path: "/sub-locations/movers-in-dubai-marina-apartment-relocation.jpg",

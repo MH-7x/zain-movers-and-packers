@@ -17,8 +17,8 @@ import { MetadataTemplate } from "@/lib/MetadataTemplate";
 import { PHONE_HREF } from "@/lib/Contact";
 
 export const metadata = MetadataTemplate({
-  title: "Movers and Packers in Dubai | Zain Movers – Licensed & Trusted",
-  desc: "Zain Movers and Packers — professional moving services in Dubai. Licensed company, 10+ years experience, no hidden charges. Call +971552550285 for a free quote.",
+  title: "Zain Movers and Packers in Dubai | Licensed Since 2015",
+  desc: "Licensed movers and packers in Dubai since 2015. Fixed quotes, no hidden fees, and you pay only when you're satisfied. Get your free quote today.",
   path: "/",
   image: {
     path: "/homepage/zain-movers-and-packers-dubai-hero.jpg",

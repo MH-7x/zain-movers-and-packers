@@ -8,8 +8,8 @@ import { MetadataTemplate } from "@/lib/MetadataTemplate";
 const PATH = "/contact";
 
 export const metadata = MetadataTemplate({
-  title: "Contact Zain Movers and Packers | Free Quote in Dubai",
-  desc: "Call, WhatsApp, or email Zain Movers and Packers for a free fixed moving quote in Dubai and across the UAE. Open 24 hours. You only pay when you are satisfied.",
+  title: "Contact Zain Movers and Packers | Free Moving Quote Dubai",
+  desc: "Get a free fixed moving quote from Zain Movers and Packers. Call or WhatsApp 055 2550285, open 24/7 across the UAE, office in Al Quoz, Dubai.",
   path: PATH,
   image: {
     path: "/homepage/zain-movers-and-packers-dubai-hero.jpg",

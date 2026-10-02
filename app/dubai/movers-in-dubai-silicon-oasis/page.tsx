@@ -16,8 +16,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/dubai/movers-in-dubai-silicon-oasis";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in Dubai Silicon Oasis | Zain Movers and Packers",
-  desc: "Professional movers and packers in Dubai Silicon Oasis (DSO). We handle Cedre Villas, tech offices, and apartment relocations safely. Pay upon satisfaction.",
+  title: "Movers in Dubai Silicon Oasis | DSO Villas & Apartments",
+  desc: "Movers and packers in Dubai Silicon Oasis (DSO) for Cedre Villas, apartments and tech park offices. Fixed quotes, pay after the move.",
   path: PATH,
   image: {
     path: "/sub-locations/movers-in-dubai-silicon-oasis-villa-relocation.jpg",

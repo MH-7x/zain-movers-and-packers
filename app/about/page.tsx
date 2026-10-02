@@ -27,8 +27,8 @@ import { LOCATIONS } from "@/data/locations-nav";
 const PATH = "/about";
 
 export const metadata = MetadataTemplate({
-  title: "About Zain Movers and Packers | Licensed Moving Company in UAE",
-  desc: "Learn about Zain Movers and Packers. Licensed UAE moving company since 2020, 10+ years of industry experience, and a simple promise: you pay only when you are satisfied.",
+  title: "About Zain Movers and Packers | Licensed UAE Movers",
+  desc: "Meet Zain Movers and Packers: a licensed, insured Dubai moving company serving all 7 emirates since 2015, with 1,000+ moves and an in-house team.",
   path: PATH,
   image: {
     path: "/homepage/zain-movers-packers-dubai-established-2015.jpg",
@@ -151,7 +151,7 @@ export default function AboutPage() {
               <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground [&>p]:max-w-prose">
                 <p>
                   Zain Movers and Packers is a registered moving company based
-                  in Dubai, UAE. We were officially licensed in 2020, but we
+                  in Dubai, UAE. We were officially licensed in 2015, but we
                   have been in the moving industry since 2015 — long before we
                   put a name on the truck.
                 </p>
@@ -199,7 +199,7 @@ export default function AboutPage() {
                     body: "Operating in the UAE moving industry, long before we put a name on the truck.",
                   },
                   {
-                    value: "2020",
+                    value: "2015",
                     title: "Formally Licensed",
                     body: "Officially registered as a UAE commercial moving company.",
                   },
@@ -431,7 +431,7 @@ export default function AboutPage() {
             body: "Expanded to daily transit links between Dubai, Sharjah, and Abu Dhabi, and introduced specialised packing protocols for fine art, imported pianos, and high-gloss veneer furniture.",
           },
           {
-            year: "2020",
+            year: "2015",
             title: "Formal Dubai Incorporation",
             body: "Secured our official UAE commercial trade licence and instituted a dedicated developer NOC process to streamline building gate passes across Emaar, Nakheel, and Dubai Properties communities.",
           },

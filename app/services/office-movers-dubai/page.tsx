@@ -25,8 +25,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/services/office-movers-dubai";
 
 export const metadata = MetadataTemplate({
-  title: "Office Movers in Dubai | Commercial Relocation Services",
-  desc: "Expert office movers in Dubai. We offer after-hours and weekend moves for zero business downtime. Fully insured. Pay upon satisfaction. Get a free quote.",
+  title: "Office Movers in Dubai | Weekend Moves, Zero Downtime",
+  desc: "Office movers in Dubai for desks, IT and server rooms. We move overnight or on weekends so your team starts Monday ready. Get a free quote.",
   path: PATH,
   image: {
     path: "/services/office-movers-dubai-wrapping-monitors.jpg",

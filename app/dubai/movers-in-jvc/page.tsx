@@ -16,8 +16,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/dubai/movers-in-jvc";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in JVC Dubai | Zain Movers and Packers",
-  desc: "Professional movers and packers in Jumeirah Village Circle (JVC). We handle townhouses, villas, and apartments safely. Pay upon satisfaction.",
+  title: "Movers in JVC Dubai | Apartments & Townhouses, Fixed Price",
+  desc: "Movers and packers in Jumeirah Village Circle (JVC) for apartments and townhouses. Fixed quotes, no hidden fees, pay after the move.",
   path: PATH,
   image: {
     path: "/sub-locations/movers-in-jvc-townhouse-relocation.jpg",

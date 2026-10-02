@@ -16,8 +16,8 @@ import { generateServiceSchema, jsonLdProps } from "@/lib/Schema";
 const PATH = "/dubai/movers-in-palm-jumeirah";
 
 export const metadata = MetadataTemplate({
-  title: "Movers in Palm Jumeirah | Zain Movers and Packers",
-  desc: "Expert movers and packers in Palm Jumeirah. We provide luxury villa moving, fine art packing, and apartment relocations securely. Pay upon satisfaction.",
+  title: "Movers in Palm Jumeirah | Luxury Villa & Apartment Moving",
+  desc: "Movers in Palm Jumeirah for signature villas and shoreline apartments. Careful handling of art, marble and custom furniture. Pay after the move.",
   path: PATH,
   image: {
     path: "/sub-locations/movers-in-palm-jumeirah-villa-relocation.jpg",

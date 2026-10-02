@@ -72,7 +72,7 @@ export default function CompanyIntro() {
                   Zain Movers and Packers is a licensed and registered moving
                   company in Dubai. We&apos;ve been helping families,
                   individuals, and businesses move across the UAE since 2015 —
-                  and officially registered our company in 2020.
+                  and officially registered our company in 2015.
                 </p>
                 <p className="max-w-prose">
                   Whether you&apos;re shifting a studio apartment in Dubai
