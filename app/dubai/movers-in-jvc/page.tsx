@@ -20,8 +20,8 @@ export const metadata = MetadataTemplate({
   desc: "Professional movers and packers in Jumeirah Village Circle (JVC). We handle townhouses, villas, and apartments safely. Pay upon satisfaction.",
   path: PATH,
   image: {
-    path: "/og/movers-in-jvc.jpg",
-    alt: "Zain Movers crew carrying furniture up a JVC townhouse staircase",
+    path: "/sub-locations/movers-in-jvc-townhouse-relocation.jpg",
+    alt: "Zain Movers crew carrying a wrapped wardrobe up a JVC townhouse staircase",
   },
 });
 
@@ -116,6 +116,7 @@ export default function MoversInJvcPage() {
           "Official UAE commercial trade licence",
           "Goods-in-transit cargo insurance",
         ]}
+        imageSrc="/sub-locations/movers-in-jvc-townhouse-relocation.jpg"
         imageAlt="Zain Movers crew carrying a wrapped wardrobe up a JVC townhouse staircase"
         imageLabel="JVC townhouse relocation"
       />
@@ -124,12 +125,14 @@ export default function MoversInJvcPage() {
         title="Experience Operating Inside the Community"
         proofImages={[
           {
+            src: "/sub-locations/jvc-wrapped-bed-frame-staircase.jpg",
             alt: "Movers carrying a wrapped bed frame down a townhouse staircase",
             label: "Multi-floor stair carry",
             caption: "Heavy Furniture Across Multiple Floors",
             sub: "Narrow staircases navigated without causing damage",
           },
           {
+            src: "/sub-locations/jvc-sofa-blankets-stretch-film.jpg",
             alt: "Heavy-duty blankets and stretch film applied to a sofa in JVC",
             label: "Blankets & stretch film",
             caption: "Heavy-Duty Blankets and Stretch Film",

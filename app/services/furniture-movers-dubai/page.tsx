@@ -28,8 +28,8 @@ export const metadata = MetadataTemplate({
   desc: "Expert furniture movers in Dubai. We handle dismantling, packing, transport, and reassembly. Safe, insured, and no hidden fees. Get a free quote today.",
   path: PATH,
   image: {
-    path: "/og/furniture-movers-dubai.jpg",
-    alt: "Zain Movers carpenters dismantling a wardrobe for transport in Dubai",
+    path: "/services/furniture-movers-dubai-wardrobe-dismantling.jpg",
+    alt: "Zain Movers carpenter dismantling a large wardrobe in a Dubai bedroom",
   },
 });
 

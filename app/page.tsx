@@ -21,7 +21,7 @@ export const metadata = MetadataTemplate({
   desc: "Zain Movers and Packers — professional moving services in Dubai. Licensed company, 10+ years experience, no hidden charges. Call +971-55-4495331 for a free quote.",
   path: "/",
   image: {
-    path: "/zain-movers-and-packers.jpg",
+    path: "/homepage/zain-movers-and-packers-dubai-hero.jpg",
     alt: "Zain Movers and Packers crew loading a closed moving truck in Dubai",
   },
 });

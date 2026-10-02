@@ -27,8 +27,8 @@ export const metadata = MetadataTemplate({
   desc: "Professional movers and packers in Dubai Marina. We handle high-rise apartments and penthouses. No hidden fees. Pay upon satisfaction.",
   path: PATH,
   image: {
-    path: "/og/movers-in-dubai-marina.jpg",
-    alt: "Zain Movers crew relocating furniture inside a Dubai Marina apartment",
+    path: "/sub-locations/movers-in-dubai-marina-apartment-relocation.jpg",
+    alt: "Zain Movers crew wrapping furniture inside a Dubai Marina apartment",
   },
 });
 
@@ -121,6 +121,7 @@ export default function MoversInDubaiMarinaPage() {
           "Official UAE commercial trade licence",
           "Goods-in-transit cargo insurance",
         ]}
+        imageSrc="/sub-locations/movers-in-dubai-marina-apartment-relocation.jpg"
         imageAlt="Zain Movers crew wrapping furniture inside a Dubai Marina apartment"
         imageLabel="Marina apartment relocation"
       />
@@ -129,12 +130,14 @@ export default function MoversInDubaiMarinaPage() {
         title="A Moving Company That Actually Knows the Marina"
         proofImages={[
           {
+            src: "/sub-locations/dubai-marina-heavy-duty-cartons-bubble-wrap.jpg",
             alt: "Heavy-duty carton boxes and bubble wrap prepared for a Marina apartment move",
             label: "Carton boxes & bubble wrap",
             caption: "Heavy-Duty Cartons and Bubble Wrap",
             sub: "Packed to travel down the service elevators without damaging building walls",
           },
           {
+            src: "/sub-locations/dubai-marina-carpenter-dismantling-wardrobe.jpg",
             alt: "Carpenter dismantling a wardrobe inside a Dubai Marina apartment",
             label: "Carpenter dismantling wardrobe",
             caption: "Carpenter Dismantling and Reassembly",

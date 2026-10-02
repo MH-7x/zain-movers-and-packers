@@ -27,8 +27,8 @@ export const metadata = MetadataTemplate({
   desc: "Looking for a reliable moving company in Abu Dhabi? We offer house, villa, and furniture moving across Al Reem, Yas, and Saadiyat. Pay upon satisfaction.",
   path: PATH,
   image: {
-    path: "/og/movers-in-abu-dhabi.jpg",
-    alt: "Zain Movers truck on the corniche during an Abu Dhabi relocation",
+    path: "/locations/movers-in-abu-dhabi-unloading-truck-tower.jpg",
+    alt: "Zain Movers crew unloading a branded truck outside an Abu Dhabi residential tower",
   },
 });
 

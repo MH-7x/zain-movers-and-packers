@@ -1,8 +1,8 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import { Info } from "lucide-react";
 
 import SectionHeading from "@/components/shared/SectionHeading";
-import QuoteDialog from "@/components/shared/QuoteDialog";
 
 export interface LocationPriceRow {
   property: string;
@@ -111,14 +111,12 @@ export default function LocationPricing({
             </div>
           </div>
 
-          <QuoteDialog>
-            <button
-              type="button"
-              className="h-12 shrink-0 bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
-            >
-              Get an Exact Quote
-            </button>
-          </QuoteDialog>
+          <Link
+            href="/contact"
+            className="flex h-12 shrink-0 items-center justify-center bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
+          >
+            Get an Exact Quote
+          </Link>
         </div>
       </div>
     </section>

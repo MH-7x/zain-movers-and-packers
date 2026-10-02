@@ -29,8 +29,8 @@ export const metadata = MetadataTemplate({
   desc: "Expert villa movers in Dubai. We handle large properties, garden furniture, and heavy items. No hidden fees. Pay upon satisfaction. Get a free quote today.",
   path: PATH,
   image: {
-    path: "/og/villa-movers-dubai.jpg",
-    alt: "Zain Movers villa relocation crew loading furniture outside a Dubai villa",
+    path: "/services/villa-movers-dubai-carrying-sofa.jpg",
+    alt: "Zain Movers crew carrying a sofa through a Dubai villa living room",
   },
 });
 

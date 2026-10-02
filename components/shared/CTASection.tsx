@@ -1,9 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Clock, MessageCircle, Phone, ShieldCheck } from "lucide-react";
 import { cn } from "cn";
 
 import QuoteForm from "@/components/shared/QuoteForm";
-import QuoteDialog from "@/components/shared/QuoteDialog";
 import { PHONE_DISPLAY, PHONE_HREF, WHATSAPP_HREF } from "@/lib/Contact";
 
 interface BaseProps {
@@ -45,14 +45,12 @@ export function CTABanner({
         </p>
 
         <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <QuoteDialog>
-            <button
-              type="button"
-              className="h-13 w-full bg-primary px-8 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85 sm:w-auto"
-            >
-              Get a Free Quote
-            </button>
-          </QuoteDialog>
+          <Link
+            href="/contact"
+            className="flex h-13 w-full items-center justify-center bg-primary px-8 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85 sm:w-auto"
+          >
+            Get a Free Quote
+          </Link>
 
           <a
             href={PHONE_HREF}

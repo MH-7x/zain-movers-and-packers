@@ -1,7 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Phone } from "lucide-react";
 
-import QuoteDialog from "@/components/shared/QuoteDialog";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
 
 const REASONS = [
@@ -73,14 +73,12 @@ export default function WhyChooseUs() {
               </span>
             </a>
 
-            <QuoteDialog>
-              <button
-                type="button"
-                className="mt-3 h-12 w-full bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
-              >
-                Get a Free Quote
-              </button>
-            </QuoteDialog>
+            <Link
+              href="/contact"
+              className="mt-3 flex h-12 w-full items-center justify-center bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
+            >
+              Get a Free Quote
+            </Link>
 
             <div className="relative mt-8 aspect-3/2 w-full overflow-hidden">
               <Image

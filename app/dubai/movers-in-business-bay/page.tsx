@@ -20,8 +20,8 @@ export const metadata = MetadataTemplate({
   desc: "Professional movers and packers in Business Bay Dubai. We specialize in corporate office relocations and high-rise apartment moving. Pay upon satisfaction.",
   path: PATH,
   image: {
-    path: "/og/movers-in-business-bay.jpg",
-    alt: "Zain Movers crew packing office equipment in a Business Bay tower",
+    path: "/sub-locations/movers-in-business-bay-office-relocation.jpg",
+    alt: "Zain Movers crew wrapping office furniture inside a Business Bay tower",
   },
 });
 
@@ -116,6 +116,7 @@ export default function MoversInBusinessBayPage() {
           "Official UAE commercial trade licence",
           "Goods-in-transit cargo insurance",
         ]}
+        imageSrc="/sub-locations/movers-in-business-bay-office-relocation.jpg"
         imageAlt="Zain Movers crew wrapping office furniture inside a Business Bay tower"
         imageLabel="Business Bay office relocation"
       />
@@ -124,12 +125,14 @@ export default function MoversInBusinessBayPage() {
         title="Serious Logistical Planning for a Fast-Paced District"
         proofImages={[
           {
+            src: "/sub-locations/business-bay-it-equipment-packed-safely.jpg",
             alt: "IT equipment packed into secure boxes for a Business Bay office move",
             label: "IT equipment packing",
             caption: "Delicate IT Equipment Packed Safely",
             sub: "Computers, monitors and servers in heavy-duty bubble wrap",
           },
           {
+            src: "/sub-locations/business-bay-carpenters-dismantling-office-desks.jpg",
             alt: "Modular office desks being dismantled by carpenters in Business Bay",
             label: "Desk dismantling",
             caption: "Expert Carpenters On Every Office Move",

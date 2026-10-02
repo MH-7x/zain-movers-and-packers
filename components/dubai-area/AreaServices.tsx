@@ -1,5 +1,4 @@
 import SectionHeading from "@/components/shared/SectionHeading";
-import QuoteDialog from "@/components/shared/QuoteDialog";
 import Reveal from "@/components/shared/Reveal";
 
 export interface AreaService {

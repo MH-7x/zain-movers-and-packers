@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 
 import Reveal from "@/components/shared/Reveal";
 
@@ -15,7 +16,13 @@ export default function AreaLogistics({
   eyebrow?: string;
   title: string;
   children: ReactNode;
-  proofImages: { alt: string; label: string; caption: string; sub: string }[];
+  proofImages: {
+    src: string;
+    alt: string;
+    label: string;
+    caption: string;
+    sub: string;
+  }[];
 }) {
   return (
     <section className="bg-secondary">
@@ -36,7 +43,15 @@ export default function AreaLogistics({
           {proofImages.map((image, index) => (
             <li key={image.caption}>
               <Reveal delay={index * 70}>
-                <div className="relative aspect-video overflow-hidden bg-hairline"></div>
+                <div className="relative aspect-video overflow-hidden bg-hairline">
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
                 <div className="bg-background p-4">
                   <p className="text-sm font-semibold text-foreground">
                     {image.caption}

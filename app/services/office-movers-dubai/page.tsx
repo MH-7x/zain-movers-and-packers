@@ -29,8 +29,8 @@ export const metadata = MetadataTemplate({
   desc: "Expert office movers in Dubai. We offer after-hours and weekend moves for zero business downtime. Fully insured. Pay upon satisfaction. Get a free quote.",
   path: PATH,
   image: {
-    path: "/og/office-movers-dubai.jpg",
-    alt: "Zain Movers crew packing office workstations and IT equipment in Dubai",
+    path: "/services/office-movers-dubai-wrapping-monitors.jpg",
+    alt: "Zain Movers crew wrapping office monitors and workstations during an office relocation in Dubai",
   },
 });
 

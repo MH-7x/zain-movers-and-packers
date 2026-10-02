@@ -30,8 +30,8 @@ export const metadata = MetadataTemplate({
   desc: "Professional movers and packers in Ajman. We cover Ajman Downtown, Al Nuaimia, and Rashidiya. Safe packing, no hidden fees. Get a free fixed quote.",
   path: PATH,
   image: {
-    path: "/og/movers-in-ajman.jpg",
-    alt: "Zain Movers crew loading a covered truck during an Ajman apartment move",
+    path: "/locations/movers-in-ajman-wrapped-furniture-apartment.jpg",
+    alt: "Zain Movers team carrying wrapped furniture into an Ajman apartment building",
   },
 });
 

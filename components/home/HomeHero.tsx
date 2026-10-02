@@ -1,7 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Check, Phone } from "lucide-react";
 
-import QuoteDialog from "@/components/shared/QuoteDialog";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
 
 const TRUST_STRIP = [
@@ -34,14 +34,12 @@ export default function HomeHero() {
           </p>
 
           <div className="mt-9 flex flex-col gap-2.5 sm:flex-row sm:flex-wrap">
-            <QuoteDialog>
-              <button
-                type="button"
-                className="h-13 bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
-              >
-                Get a Free Quote
-              </button>
-            </QuoteDialog>
+            <Link
+              href="/contact"
+              className="flex h-13 items-center justify-center bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
+            >
+              Get a Free Quote
+            </Link>
 
             <a
               href={PHONE_HREF}

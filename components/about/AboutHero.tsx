@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BadgeCheck } from "lucide-react";
 
 export default function AboutHero() {
@@ -26,7 +27,16 @@ export default function AboutHero() {
         </div>
 
         <div className="relative">
-          <div className="relative aspect-4/3 w-full overflow-hidden" />
+          <div className="relative aspect-4/3 w-full overflow-hidden">
+            <Image
+              src="/homepage/zain-movers-packers-dubai-established-2015.jpg"
+              alt="Zain Movers and Packers branded truck parked with the Dubai skyline in the background, established 2015"
+              fill
+              priority
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
+            />
+          </div>
 
           <div className="flex items-center gap-4 border border-hairline bg-background p-5 lg:absolute lg:-bottom-8 lg:-left-8 lg:max-w-sm lg:shadow-[0_8px_24px_-4px_rgba(31,31,31,0.08)]">
             <BadgeCheck

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   Banknote,
@@ -30,8 +31,8 @@ export const metadata = MetadataTemplate({
   desc: "Learn about Zain Movers and Packers. Licensed UAE moving company since 2020, 10+ years of industry experience, and a simple promise: you pay only when you are satisfied.",
   path: PATH,
   image: {
-    path: "/og/about.jpg",
-    alt: "Zain Movers uniformed crew loading a branded truck at the Dubai depot",
+    path: "/homepage/zain-movers-packers-dubai-established-2015.jpg",
+    alt: "Zain Movers and Packers branded truck parked with the Dubai skyline in the background, established 2015",
   },
 });
 
@@ -180,7 +181,15 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <div className="relative aspect-3/2 w-full overflow-hidden" />
+              <div className="relative aspect-3/2 w-full overflow-hidden">
+                <Image
+                  src="/locations/zain-movers-covered-fleet-ajman-dispatch.jpg"
+                  alt="Zain Movers and Packers covered fleet of branded, enclosed trucks dispatching from the depot"
+                  fill
+                  sizes="(min-width: 1024px) 45vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
 
               <dl className="mt-px grid gap-px bg-hairline sm:grid-cols-2">
                 {[

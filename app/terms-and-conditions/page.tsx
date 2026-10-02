@@ -9,8 +9,8 @@ export const metadata = MetadataTemplate({
   desc: "Read the terms and conditions for using Zain Movers and Packers' moving services in the UAE. Covers bookings, pricing, liability, cancellations, and payment.",
   path: PATH,
   image: {
-    path: "/og/terms-and-conditions.jpg",
-    alt: "Zain Movers and Packers terms and conditions",
+    path: "/homepage/zain-movers-and-packers-dubai-hero.jpg",
+    alt: "Zain Movers and Packers crew and branded truck serving customers across the UAE",
   },
 });
 

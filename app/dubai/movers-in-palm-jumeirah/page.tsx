@@ -20,8 +20,8 @@ export const metadata = MetadataTemplate({
   desc: "Expert movers and packers in Palm Jumeirah. We provide luxury villa moving, fine art packing, and apartment relocations securely. Pay upon satisfaction.",
   path: PATH,
   image: {
-    path: "/og/movers-in-palm-jumeirah.jpg",
-    alt: "Zain Movers crew packing fragile items inside a Palm Jumeirah villa",
+    path: "/sub-locations/movers-in-palm-jumeirah-villa-relocation.jpg",
+    alt: "Zain Movers crew wrapping a mirror inside a Palm Jumeirah villa",
   },
 });
 
@@ -117,6 +117,7 @@ export default function MoversInPalmJumeirahPage() {
           "Official UAE commercial trade licence",
           "Goods-in-transit cargo insurance",
         ]}
+        imageSrc="/sub-locations/movers-in-palm-jumeirah-villa-relocation.jpg"
         imageAlt="Zain Movers crew wrapping a mirror inside a Palm Jumeirah villa"
         imageLabel="Palm Jumeirah villa relocation"
       />
@@ -125,12 +126,14 @@ export default function MoversInPalmJumeirahPage() {
         title="Serving the Island's Residents With Discretion"
         proofImages={[
           {
+            src: "/sub-locations/palm-jumeirah-custom-crating-mirror.jpg",
             alt: "Custom crating built around a large mirror for a Palm Jumeirah move",
             label: "Custom crating",
             caption: "Custom Crating and Heavy-Duty Bubble Wrapping",
             sub: "For fragile items, large mirrors, antiques and chandeliers",
           },
           {
+            src: "/sub-locations/palm-jumeirah-premium-packing-materials.jpg",
             alt: "Premium packing materials laid out before a Palm Jumeirah villa move",
             label: "Premium packing materials",
             caption: "Premium Packing Materials",

@@ -20,8 +20,8 @@ export const metadata = MetadataTemplate({
   desc: "Professional movers and packers in Dubai Silicon Oasis (DSO). We handle Cedre Villas, tech offices, and apartment relocations safely. Pay upon satisfaction.",
   path: PATH,
   image: {
-    path: "/og/movers-in-dubai-silicon-oasis.jpg",
-    alt: "Zain Movers crew loading furniture outside a Cedre Villas home in DSO",
+    path: "/sub-locations/movers-in-dubai-silicon-oasis-villa-relocation.jpg",
+    alt: "Zain Movers crew loading wrapped furniture outside a Cedre Villas home in DSO",
   },
 });
 
@@ -116,6 +116,7 @@ export default function MoversInDubaiSiliconOasisPage() {
           "Official UAE commercial trade licence",
           "Goods-in-transit cargo insurance",
         ]}
+        imageSrc="/sub-locations/movers-in-dubai-silicon-oasis-villa-relocation.jpg"
         imageAlt="Zain Movers crew loading wrapped furniture outside a Cedre Villas home in DSO"
         imageLabel="DSO villa relocation"
       />
@@ -124,12 +125,14 @@ export default function MoversInDubaiSiliconOasisPage() {
         title="Experience Operating Across the District"
         proofImages={[
           {
+            src: "/sub-locations/dubai-silicon-oasis-it-equipment-packing.jpg",
             alt: "Servers and IT equipment packed for a Dubai Silicon Oasis office move",
             label: "IT equipment packing",
             caption: "Sensitive IT Equipment for Tech Startups",
             sub: "Servers, electronics and modular office desks packed safely",
           },
           {
+            src: "/sub-locations/dubai-silicon-oasis-carpenter-wardrobe-cedre-villas.jpg",
             alt: "Carpenter dismantling a wardrobe inside a Cedre Villas bedroom",
             label: "Carpenter dismantling wardrobe",
             caption: "Expert Carpenters On Every Move",

@@ -29,8 +29,8 @@ export const metadata = MetadataTemplate({
   desc: "Fast and safe packing and moving services in Dubai. We provide all materials, pack your items securely, and move them. Pay only when satisfied.",
   path: PATH,
   image: {
-    path: "/og/packing-and-moving-services-dubai.jpg",
-    alt: "Zain Movers packers wrapping fragile kitchenware into cartons in Dubai",
+    path: "/services/packing-services-dubai-glassware-bubble-wrap.jpg",
+    alt: "Zain Movers packers wrapping glassware in bubble wrap before boxing in a Dubai home",
   },
 });
 

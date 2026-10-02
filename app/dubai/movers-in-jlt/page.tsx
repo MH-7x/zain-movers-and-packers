@@ -20,8 +20,8 @@ export const metadata = MetadataTemplate({
   desc: "Expert movers and packers in Jumeirah Lake Towers (JLT). We handle high-rise apartments and corporate offices safely. Pay upon satisfaction.",
   path: PATH,
   image: {
-    path: "/og/movers-in-jlt.jpg",
-    alt: "Zain Movers crew loading a truck at a JLT tower loading bay",
+    path: "/sub-locations/movers-in-jlt-basement-loading-bay.jpg",
+    alt: "Zain Movers crew loading a moving truck in a JLT basement loading bay",
   },
 });
 
@@ -115,6 +115,7 @@ export default function MoversInJltPage() {
           "Official UAE commercial trade licence",
           "Goods-in-transit cargo insurance",
         ]}
+        imageSrc="/sub-locations/movers-in-jlt-basement-loading-bay.jpg"
         imageAlt="Zain Movers crew loading a moving truck in a JLT basement loading bay"
         imageLabel="JLT loading bay"
       />
@@ -123,12 +124,14 @@ export default function MoversInJltPage() {
         title="A Team That Understands How DMCC Buildings Operate"
         proofImages={[
           {
+            src: "/sub-locations/jlt-heavy-duty-cartons-bubble-wrap.jpg",
             alt: "Heavy-duty carton boxes and bubble wrap prepared for a JLT apartment move",
             label: "Carton boxes & bubble wrap",
             caption: "Heavy-Duty Cartons and Protective Bubble Wrap",
             sub: "So fragile items and electronics survive the service elevator journey",
           },
           {
+            src: "/sub-locations/jlt-it-equipment-modular-office-furniture.jpg",
             alt: "IT equipment and modular office furniture packed for a JLT office move",
             label: "IT equipment packing",
             caption: "IT Equipment and Modular Office Furniture",

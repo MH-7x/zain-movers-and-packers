@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import { Lock } from "lucide-react";
 
-import QuoteDialog from "@/components/shared/QuoteDialog";
 import SectionHeading from "@/components/shared/SectionHeading";
 
 export interface PricingRow {
@@ -123,14 +123,12 @@ export default function ServicePricing({
             </div>
           </div>
 
-          <QuoteDialog>
-            <button
-              type="button"
-              className="h-12 shrink-0 bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
-            >
-              Lock In Your Move Date
-            </button>
-          </QuoteDialog>
+          <Link
+            href="/contact"
+            className="flex h-12 shrink-0 items-center justify-center bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
+          >
+            Lock In Your Move Date
+          </Link>
         </div>
       </div>
     </section>

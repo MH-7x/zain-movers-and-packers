@@ -12,8 +12,8 @@ export const metadata = MetadataTemplate({
   desc: "Call, WhatsApp, or email Zain Movers and Packers for a free fixed moving quote in Dubai and across the UAE. Open 24 hours. You only pay when you are satisfied.",
   path: PATH,
   image: {
-    path: "/og/contact.jpg",
-    alt: "Zain Movers dispatch team answering calls at the Dubai office",
+    path: "/homepage/zain-movers-and-packers-dubai-hero.jpg",
+    alt: "Zain Movers and Packers crew and branded truck ready for dispatch in Dubai",
   },
 });
 

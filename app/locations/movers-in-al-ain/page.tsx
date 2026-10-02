@@ -28,8 +28,8 @@ export const metadata = MetadataTemplate({
   desc: "Professional movers and packers in Al Ain. We handle villa and apartment moves in Al Jimi, Zakher, and Falaj Hazzaa. No hidden fees. Get a free quote.",
   path: PATH,
   image: {
-    path: "/og/movers-in-al-ain.jpg",
-    alt: "Zain Movers crew carrying majlis seating from an Al Ain villa",
+    path: "/locations/movers-in-al-ain-wrapping-majlis-seating-villa.jpg",
+    alt: "Zain Movers crew wrapping majlis seating inside an Al Ain villa",
   },
 });
 

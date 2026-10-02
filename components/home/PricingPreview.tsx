@@ -1,6 +1,6 @@
+import Link from "next/link";
 import { Check, ShieldCheck } from "lucide-react";
 
-import QuoteDialog from "@/components/shared/QuoteDialog";
 import SectionHeading from "@/components/shared/SectionHeading";
 import Reveal from "@/components/shared/Reveal";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
@@ -164,14 +164,12 @@ export default function PricingPreview() {
                 ))}
               </ul>
 
-              <QuoteDialog>
-                <button
-                  type="button"
-                  className="mt-7 h-12 w-full bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
-                >
-                  Get an Exact Quote
-                </button>
-              </QuoteDialog>
+              <Link
+                href="/contact"
+                className="mt-7 flex h-12 w-full items-center justify-center bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
+              >
+                Get an Exact Quote
+              </Link>
 
               <a
                 href={PHONE_HREF}

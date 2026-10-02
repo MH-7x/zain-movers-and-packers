@@ -28,8 +28,8 @@ export const metadata = MetadataTemplate({
   desc: "Looking for cheap movers and packers in Dubai? Get affordable moving services with zero hidden fees. Pay only when you are satisfied. Get a free fixed quote.",
   path: PATH,
   image: {
-    path: "/og/cheap-movers-dubai.jpg",
-    alt: "Zain Movers crew loading a small apartment move into a branded truck in Dubai",
+    path: "/services/cheap-movers-dubai-studio-apartment-move.jpg",
+    alt: "Zain Movers crew loading a studio apartment move into a branded truck in Dubai",
   },
 });
 

@@ -1,6 +1,7 @@
+import Image from "next/image";
+import Link from "next/link";
 import { Building2, Phone, ShieldCheck } from "lucide-react";
 
-import QuoteDialog from "@/components/shared/QuoteDialog";
 import TrustBadges, { type TrustBadge } from "@/components/shared/TrustBadges";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/Contact";
 
@@ -18,6 +19,7 @@ export default function AreaHero({
   crewMeta,
   crewChip,
   compliance,
+  imageSrc,
   imageAlt,
   imageLabel,
 }: {
@@ -30,6 +32,7 @@ export default function AreaHero({
   crewMeta: string;
   crewChip?: string;
   compliance: string[];
+  imageSrc: string;
   imageAlt: string;
   imageLabel: string;
 }) {
@@ -59,19 +62,25 @@ export default function AreaHero({
               Call Now: {PHONE_DISPLAY}
             </a>
 
-            <QuoteDialog>
-              <button
-                type="button"
-                className="h-13 bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
-              >
-                Get Fixed Quote
-              </button>
-            </QuoteDialog>
+            <Link
+              href="/contact"
+              className="flex h-13 items-center justify-center bg-primary px-6 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/85"
+            >
+              Get Fixed Quote
+            </Link>
           </div>
         </div>
 
         <div>
           <div className="relative aspect-square overflow-hidden bg-secondary">
+            <Image
+              src={imageSrc}
+              alt={imageAlt}
+              fill
+              priority
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover"
+            />
             <div className="absolute inset-x-0 bottom-0 flex flex-wrap items-center justify-between gap-3 bg-foreground/95 p-4">
               <span className="flex items-center gap-3">
                 <span

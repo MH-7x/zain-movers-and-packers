@@ -9,8 +9,8 @@ export const metadata = MetadataTemplate({
   desc: "Read the privacy policy of Zain Movers and Packers. Learn how we collect, use, and protect your personal information when you use our moving services in the UAE.",
   path: PATH,
   image: {
-    path: "/og/privacy-policy.jpg",
-    alt: "Zain Movers and Packers privacy policy",
+    path: "/homepage/zain-movers-and-packers-dubai-hero.jpg",
+    alt: "Zain Movers and Packers branded truck and uniformed crew in Dubai",
   },
 });
 

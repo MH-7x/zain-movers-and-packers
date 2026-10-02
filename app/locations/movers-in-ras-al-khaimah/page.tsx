@@ -28,8 +28,8 @@ export const metadata = MetadataTemplate({
   desc: "Top-rated movers and packers in Ras Al Khaimah. We handle villa, apartment, and office moves in Al Hamra, Marjan Island, and Khuzam. No hidden fees.",
   path: PATH,
   image: {
-    path: "/og/movers-in-ras-al-khaimah.jpg",
-    alt: "Zain Movers crew unloading furniture at a villa in Ras Al Khaimah",
+    path: "/locations/movers-in-ras-al-khaimah-villa-unloading.jpg",
+    alt: "Zain Movers crew unloading wrapped furniture at a Ras Al Khaimah villa",
   },
 });
 

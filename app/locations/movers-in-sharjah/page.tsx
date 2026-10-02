@@ -29,8 +29,8 @@ export const metadata = MetadataTemplate({
   desc: "Trusted movers and packers in Sharjah. We cover Al Nahda, Muweilah, Al Majaz and all areas. No hidden fees. Pay upon satisfaction. Get a free quote.",
   path: PATH,
   image: {
-    path: "/og/movers-in-sharjah.jpg",
-    alt: "Zain Movers crew loading a closed truck outside a Sharjah apartment tower",
+    path: "/locations/movers-in-sharjah-carrying-wrapped-furniture.jpg",
+    alt: "Zain Movers crew carrying wrapped furniture out of a Sharjah apartment building",
   },
 });
 

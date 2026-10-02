@@ -30,8 +30,8 @@ export const metadata = MetadataTemplate({
   desc: "Looking for house movers in Dubai? We offer professional home shifting services with transparent pricing. Pay only when you are satisfied. Get a free quote.",
   path: PATH,
   image: {
-    path: "/og/house-movers-dubai.jpg",
-    alt: "Zain Movers house moving crew wrapping furniture in a Dubai apartment",
+    path: "/services/house-movers-dubai-crew-wrapping-sofa.jpg",
+    alt: "Zain Movers crew wrapping a sofa in protective blankets inside a Dubai apartment living room",
   },
 });
 
