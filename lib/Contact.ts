@@ -29,7 +29,7 @@ export function whatsappHref(message: string = WHATSAPP_MESSAGE) {
 export const WHATSAPP_HREF = whatsappHref();
 
 export const SOCIALS = [
-  { label: "Facebook", href: "#" },
-  { label: "Instagram", href: "#" },
-  { label: "TikTok", href: "#" },
+  { label: "Facebook", href: "https://www.facebook.com/zainmoversandpackers" },
+  { label: "Instagram", href: "https://www.instagram.com/zainmoversandpackers" },
+  { label: "TikTok", href: "https://www.tiktok.com/@zainmoversandpackers" },
 ];

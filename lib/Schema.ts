@@ -1,5 +1,5 @@
 import { APP } from "@/lib/App";
-import { ADDRESS, EMAIL, PHONE_INTL } from "@/lib/Contact";
+import { ADDRESS, EMAIL, PHONE_INTL, SOCIALS } from "@/lib/Contact";
 
 const siteUrl = APP.url?.replace(/\/$/, "") ?? "";
 
@@ -59,6 +59,7 @@ export function generateLocalBusinessSchema() {
     paymentAccepted: ["Cash", "Bank Transfer", "Cheque"],
     foundingDate: "2015",
     areaServed: AREAS_SERVED.map((name) => ({ "@type": "Place", name })),
+    sameAs: SOCIALS.map((social) => social.href),
     // NOTE: no aggregateRating here on purpose. Review markup must reflect
     // ratings actually collected and displayed on the site — inventing one
     // breaches Google's structured-data policy. Add it only when real review

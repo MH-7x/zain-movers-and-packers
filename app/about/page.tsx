@@ -21,10 +21,16 @@ import ProcessSteps from "@/components/shared/ProcessSteps";
 import FAQSection, { type Faq } from "@/components/shared/FAQSection";
 import { CTAWithForm } from "@/components/shared/CTASection";
 import { MetadataTemplate } from "@/lib/MetadataTemplate";
+import { getLastModified } from "@/lib/GetLastModified";
 import { SERVICES } from "@/data/services-nav";
 import { LOCATIONS } from "@/data/locations-nav";
 
 const PATH = "/about";
+
+const REVIEWED_DATE = getLastModified([
+  "app/about/page.tsx",
+  "components/about",
+]);
 
 export const metadata = MetadataTemplate({
   title: "About Zain Movers and Packers | Licensed UAE Movers",
@@ -138,6 +144,15 @@ export default function AboutPage() {
           { value: "1,000+", label: "Completed Moves" },
         ]}
       />
+
+      <p className="wrap pt-6 text-sm text-muted-foreground">
+        Reviewed by the Zain Movers and Packers operations team · last updated{" "}
+        {REVIEWED_DATE.toLocaleDateString("en-GB", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+        })}
+      </p>
 
       {/* 01 — Origin */}
       <section className="bg-secondary">
