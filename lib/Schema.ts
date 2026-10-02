@@ -27,8 +27,8 @@ export function generateLocalBusinessSchema() {
     url: `${siteUrl}/`,
     telephone: PHONE_INTL,
     email: EMAIL,
-    image: `${siteUrl}/zain-movers-and-packers.jpg`,
-    logo: `${siteUrl}/zain-movers-and-packers.jpg`,
+    image: `${siteUrl}/zain-movers-packers-dubai-established-2015.jpg`,
+    logo: `${siteUrl}/logo.svg`,
     description:
       "Licensed and insured movers and packers in Dubai offering residential, commercial, villa, and furniture moving services across the UAE.",
     address: {

@@ -136,7 +136,7 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h2 className="eyebrow font-sans">{title}</h2>
+      <h3 className="eyebrow font-sans">{title}</h3>
       <ul className="mt-5 space-y-2.5">
         {links.map((link) => (
           <li key={link.href}>

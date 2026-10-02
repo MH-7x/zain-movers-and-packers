@@ -18,7 +18,7 @@ import { PHONE_HREF } from "@/lib/Contact";
 
 export const metadata = MetadataTemplate({
   title: "Movers and Packers in Dubai | Zain Movers – Licensed & Trusted",
-  desc: "Zain Movers and Packers — professional moving services in Dubai. Licensed company, 10+ years experience, no hidden charges. Call +971-55-4495331 for a free quote.",
+  desc: "Zain Movers and Packers — professional moving services in Dubai. Licensed company, 10+ years experience, no hidden charges. Call +971552550285 for a free quote.",
   path: "/",
   image: {
     path: "/homepage/zain-movers-and-packers-dubai-hero.jpg",
@@ -57,7 +57,7 @@ const PROCESS = [
   {
     title: "Contact Us",
     description:
-      "Call us at 055 4495331, send a WhatsApp message, or fill out the quote form. Tell us what you need to move, where you’re moving from, and where you’re going.",
+      "Call us at 055 2550285, send a WhatsApp message, or fill out the quote form. Tell us what you need to move, where you’re moving from, and where you’re going.",
   },
   {
     title: "Get a Free Quote",
@@ -106,7 +106,7 @@ const FAQS: Faq[] = [
       <p>
         Booking 2 to 4 days ahead gives you the best choice of morning time
         slots. But if you need to move today or tomorrow, call us directly at{" "}
-        <a href={PHONE_HREF}>+971-55-4495331</a>. We frequently handle same-day
+        <a href={PHONE_HREF}>+971552550285</a>. We frequently handle same-day
         moves when schedules allow.
       </p>
     ),
@@ -152,9 +152,8 @@ const FAQS: Faq[] = [
       <p>
         Yes, we offer same-day moving services for urgent situations. If you
         need to move quickly — whether you just arrived in the UAE or your plans
-        changed last minute — call us at{" "}
-        <a href={PHONE_HREF}>+971-55-4495331</a>. We’ll do our best to arrange a
-        same-day team.
+        changed last minute — call us at <a href={PHONE_HREF}>+971552550285</a>.
+        We’ll do our best to arrange a same-day team.
       </p>
     ),
   },

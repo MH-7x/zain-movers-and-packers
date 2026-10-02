@@ -8,6 +8,7 @@ import StickyMobileBar from "@/components/layout/StickyMobileBar";
 import WhatsAppFloat from "@/components/shared/WhatsAppFloat";
 import { generateLocalBusinessSchema, jsonLdProps } from "@/lib/Schema";
 import { MetadataTemplate } from "@/lib/MetadataTemplate";
+import { Metadata } from "next";
 
 const fontSans = Inter({
   subsets: ["latin"],
@@ -26,16 +27,29 @@ const fontSerif = Source_Serif_4({
   preload: true,
 });
 
-export const metadata = MetadataTemplate({
-  title:
-    "Movers and Packers in Dubai | Zain Movers – Licensed & Trusted",
-  desc: "Zain Movers and Packers — professional moving services in Dubai. Licensed company, 10+ years experience, no hidden charges. Call +971-55-4495331 for a free quote.",
-  path: "/",
-  image: {
-    path: "/zain-movers-and-packers.jpg",
-    alt: "Zain Movers and Packers crew loading a closed moving truck in Dubai",
+export const metadata: Metadata = {
+  applicationName: "Zain Movers and Packers",
+  robots: {
+    "max-image-preview": "large",
+    follow: true,
+    googleBot: {
+      notranslate: true,
+      "max-image-preview": "large",
+      index: true,
+      follow: true,
+    },
+    index: true,
+    notranslate: true,
   },
-});
+  icons: {
+    icon: [
+      { url: "/icons/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/icons/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/icons/apple-touch-icon.png",
+    shortcut: "/icons/favicon-32x32.png",
+  },
+};
 
 export default function RootLayout({
   children,
