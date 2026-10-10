@@ -9,6 +9,7 @@ import WhatsAppFloat from "@/components/shared/WhatsAppFloat";
 import { generateLocalBusinessSchema, jsonLdProps } from "@/lib/Schema";
 import { MetadataTemplate } from "@/lib/MetadataTemplate";
 import { Metadata } from "next";
+import GTM from "../components/GTM";
 
 const fontSans = Inter({
   subsets: ["latin"],
@@ -61,6 +62,7 @@ export default function RootLayout({
       <body
         className={`${fontSans.variable} ${fontSerif.variable} ${fontSans.className} flex min-h-screen flex-col bg-background text-foreground antialiased`}
       >
+        <GTM />
         <script {...jsonLdProps(generateLocalBusinessSchema())} />
         <TopBar />
         <Navbar />
